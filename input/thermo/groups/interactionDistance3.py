@@ -706,31 +706,30 @@ u"""
 
 tree(
 """
-L1: R
-    L2: aromatic-para
-        L3: p_OH
-            L4: p_OH_OH
-            L4: p_OH_MeO
-            L4: p_OH_CHO
-        L3: p_MeO
-            L4: p_MeO_MeO
-            L4: p_MeO_CHO
-        L3: p_CHO
-            L4: p_CHO_CHO
-        L3: p_Oj
-            L4: p_Oj_OH
-            L4: p_Oj_OCH3
-            L4: p_Oj_C=C
-            L4: p_Oj_Cs
-        L3: p_OCH2j
-            L4: p_OCH2j_OH
-            L4: p_OCH2j_OCH3
-        L3: p_Cj=O
-            L4: p_Cj=O_OH
-            L4: p_Cj=O_OCH3
-            L4: p_Cj=O_CHO
-        L3: p_Csj
-            L4: p_Csj_C=C
-            L4: p_Csj_CHO
+L1: aromatic-para
+    L2: p_OH
+        L3: p_OH_OH
+        L3: p_OH_MeO
+        L3: p_OH_CHO
+    L2: p_MeO
+        L3: p_MeO_MeO
+        L3: p_MeO_CHO
+    L2: p_CHO
+        L3: p_CHO_CHO
+    L2: p_Oj
+        L3: p_Oj_OH
+        L3: p_Oj_OCH3
+        L3: p_Oj_C=C
+        L3: p_Oj_Cs
+    L2: p_OCH2j
+        L3: p_OCH2j_OH
+        L3: p_OCH2j_OCH3
+    L2: p_Cj=O
+        L3: p_Cj=O_OH
+        L3: p_Cj=O_OCH3
+        L3: p_Cj=O_CHO
+    L2: p_Csj
+        L3: p_Csj_C=C
+        L3: p_Csj_CHO
 """
 )
