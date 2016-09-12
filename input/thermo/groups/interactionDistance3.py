@@ -9,28 +9,6 @@ longDesc = u"""
 
 entry(
     index = 0,
-    label = "R",
-    group = 
-"""
-1 *1 R u0 {2,B}
-2    R u0 {1,B} {3,B}
-3    R u0 {2,B} {4,B}
-4 *2 R u0 {3,B}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Root""",
-    longDesc = 
-u"""
-""",
-)
-
-entry(
-    index = 0,
     label = "aromatic-para",
     group = 
 """
