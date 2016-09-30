@@ -23,7 +23,7 @@ entry(
     label = "R",
     group = 
 """
-1 * C u0
+1 *1 R u0
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
