@@ -6,9 +6,15 @@ shortDesc = u""
 longDesc = u"""
 Designed to account for the long distance interaction for cyclic molecule.
 Currently we only have the data for aromatic ortho/meta/para corrections.
+Watch out:  if the groups on the two labeled atoms are identical, it's value should be halved because it'll be counted twice.
+            For example, for the interaction of ortho OH and OH, which is labeled as 'o_OH_OH' in this database,
+            it'll be counted in both {'*1': atom1, '*2'atom2} and {'*2': atom1, '*1'atom2}.
+            It should be claimed in the 'longDesc' if a entry was halved.
+
 Source: 
-For aromatic molecule: Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008
-For aromatic radical: A paper from the same group but still under reviewing.
+For aromatic molecule: [1] Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008
+For aromatic radical: [2] A paper from the same group but still under reviewing.
+
 Sep-29-2016 PZ
 """
 
