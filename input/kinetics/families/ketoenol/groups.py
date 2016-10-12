@@ -315,3 +315,18 @@ L1: R_ROR
 """
 )
 
+forbidden(
+    label = "cresol",
+    group = 
+"""
+1 *1 Cb u0 {2,B}
+2 *2 Cb u1 {1,B} {3,S}
+3 *3 O u0 {2,S} {4,S}
+4 *4 H u0 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
