@@ -319,10 +319,34 @@ forbidden(
     label = "cresol",
     group = 
 """
-1 *1 Cb u0 {2,B}
-2 *2 Cb u1 {1,B} {3,S}
+1 *1 Cd u0 {2,D} {8,S}
+2 *2 Cd u0 {1,D} {3,S} {5,S}
 3 *3 O u0 {2,S} {4,S}
 4 *4 H u0 {3,S}
+5 Cd u0 {2,S} {6,D}
+6 Cd u0 {5,D} {7,S}
+7 Cd u0 {6,S} {8,D}
+8 Cd u0 {7,D} {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "methoxyphenol",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {8,S}
+2 *2 Cd u0 {1,D} {3,S} {5,S}
+3 *3 O u0 {2,S} {4,S}
+4 *4 C u0 {3,S}
+5 Cd u0 {2,S} {6,D}
+6 Cd u0 {5,D} {7,S}
+7 Cd u0 {6,S} {8,D}
+8 Cd u0 {7,D} {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
