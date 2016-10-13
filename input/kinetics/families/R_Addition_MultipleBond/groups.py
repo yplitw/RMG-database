@@ -6830,6 +6830,23 @@ entry(
 )
 
 entry(
+    index = 455,
+    label = "Cds-CdH_Cds-CdH_aromatic",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    Cd u0 {3,D} {8,S}
+8    Cd u0 {6,D} {7,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 456,
     label = "Cds-CdH_Cds-C=SH",
     group = 
@@ -6927,6 +6944,23 @@ entry(
 )
 
 entry(
+    index = 461,
+    label = "Cds-CdH_Cds-CdCs_aromatic",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    Cd  u0 {3,D} {8,S}
+8    Cd  u0 {6,D} {7,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 462,
     label = "Cds-CdH_Cds-C=SCs",
     group = 
@@ -7019,6 +7053,23 @@ entry(
 6    Cd u0 {2,S} {8,D}
 7    C  u0 {3,D}
 8    C  u0 {6,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 467,
+    label = "Cds-CdH_Cds-CdOs_aromatic",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    H  u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    Cd  u0 {3,D} {8,S}
+8    Cd  u0 {6,D} {7,S}
 """,
     kinetics = None,
 )
@@ -9297,6 +9348,23 @@ entry(
 )
 
 entry(
+    index = 614,
+    label = "Cds-CdCs_Cds-CdH_aromatic",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    H  u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    Cd  u0 {3,D} {8,S}
+8    Cd  u0 {6,D} {7,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 615,
     label = "Cds-CdCs_Cds-C=SH",
     group = 
@@ -9394,6 +9462,23 @@ entry(
 )
 
 entry(
+    index = 620,
+    label = "Cds-CdCs_Cds-CdCs_aromatic",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Cs u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    Cd  u0 {3,D} {8,S}
+8    Cd  u0 {6,D} {7,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 621,
     label = "Cds-CdCs_Cds-C=SCs",
     group = 
@@ -9486,6 +9571,23 @@ entry(
 6    Cd u0 {2,S} {8,D}
 7    C  u0 {3,D}
 8    C  u0 {6,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 626,
+    label = "Cds-CdCs_Cds-CdOs_aromatic",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Cs u0 {1,S}
+5    Os u0 {2,S}
+6    Cd u0 {2,S} {8,D}
+7    Cd  u0 {3,D} {8,S}
+8    Cd  u0 {6,D} {7,S}
 """,
     kinetics = None,
 )
@@ -10043,6 +10145,23 @@ entry(
 5    R  u0 {2,S}
 6    R  u0 {2,S}
 7    C  u0 {3,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 661,
+    label = "Cds-CdOs_Cds_aromatic",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {3,S} {4,S}
+2 *2 Cd u0 {1,D} {5,S} {6,S}
+3    Cd u0 {1,S} {7,D}
+4    Os u0 {1,S}
+5    Cd  u0 {2,S} {8,D}
+6    R  u0 {2,S}
+7    Cd  u0 {3,D} {8,S}
+8    Cd  u0 {5,D} {7,S}
 """,
     kinetics = None,
 )
@@ -17042,18 +17161,21 @@ L1: R_R
                                 L9: Cds-CdH_Cds-CbH
                                 L9: Cds-CdH_Cds-COH
                                 L9: Cds-CdH_Cds-CdH
+                                    L10: Cds-CdH_Cds-CdH_aromatic
                                 L9: Cds-CdH_Cds-C=SH
                             L8: Cds-CdH_Cds-OneDeCs
                                 L9: Cds-CdH_Cds-CtCs
                                 L9: Cds-CdH_Cds-CbCs
                                 L9: Cds-CdH_Cds-COCs
                                 L9: Cds-CdH_Cds-CdCs
+                                    L10: Cds-CdH_Cds-CdCs_aromatic
                                 L9: Cds-CdH_Cds-C=SCs
                             L8: Cds-CdH_Cds-OneDeOs
                                 L9: Cds-CdH_Cds-CtOs
                                 L9: Cds-CdH_Cds-CbOs
                                 L9: Cds-CdH_Cds-COOs
                                 L9: Cds-CdH_Cds-CdOs
+                                    L10: Cds-CdH_Cds-CdOs_aromatic
                                 L9: Cds-CdH_Cds-C=SOs
                             L8: Cds-CdH_Cds-OneDeSs
                                 L9: Cds-CdH_Cds-CtSs
@@ -17201,18 +17323,21 @@ L1: R_R
                                 L9: Cds-CdCs_Cds-CbH
                                 L9: Cds-CdCs_Cds-COH
                                 L9: Cds-CdCs_Cds-CdH
+                                    L10: Cds-CdCs_Cds-CdH_aromatic
                                 L9: Cds-CdCs_Cds-C=SH
                             L8: Cds-CdCs_Cds-OneDeCs
                                 L9: Cds-CdCs_Cds-CtCs
                                 L9: Cds-CdCs_Cds-CbCs
                                 L9: Cds-CdCs_Cds-COCs
                                 L9: Cds-CdCs_Cds-CdCs
+                                    L10: Cds-CdCs_Cds-CdCs_aromatic
                                 L9: Cds-CdCs_Cds-C=SCs
                             L8: Cds-CdCs_Cds-OneDeOs
                                 L9: Cds-CdCs_Cds-CtOs
                                 L9: Cds-CdCs_Cds-CbOs
                                 L9: Cds-CdCs_Cds-COOs
                                 L9: Cds-CdCs_Cds-CdOs
+                                    L10: Cds-CdCs_Cds-CdOs_aromatic
                                 L9: Cds-CdCs_Cds-C=SOs
                             L8: Cds-CdCs_Cds-OneDeSs
                                 L9: Cds-CdCs_Cds-CtSs
@@ -17248,6 +17373,7 @@ L1: R_R
                     L6: Cds-CbOs_Cds
                     L6: Cds-COOs_Cds
                     L6: Cds-CdOs_Cds
+                        L7: Cds-CdOs_Cds_aromatic
                     L6: Cds-C=SOs_Cds
             L4: Cds-TwoDe_Cds
                 L5: Cds-CtCt_Cds
