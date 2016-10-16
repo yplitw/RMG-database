@@ -86,6 +86,36 @@ entry(
 )
 
 entry(
+    index = 6,
+    label = "R4_S_D_bridgedphenoxy",
+    group = 
+"""
+1 *1 C u1 {2,S} {6,S}
+2 *4 CO u0 {1,S} {3,S}
+3 *2 Cd u0 {2,S} {4,D}
+4 *3 Cd u0 {3,D} {5,S}
+5 Cd u0 {4,S} {6,D}
+6 Cd u0 {5,D} {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 6,
+    label = "R4_S_D_cpdylCO",
+    group = 
+"""
+1 *1 CO u1 {2,S}
+2 *4 C u0 {1,S} {3,S} {5,S}
+3 *2 Cd u0 {2,S} {4,D}
+4 *3 Cd u0 {3,D} {6,S}
+5 Cd u0 {2,S} {6,D}
+6 Cd u0 {5,D} {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
     index = 7,
     label = "R4_S_T",
     group = 
@@ -2741,6 +2771,8 @@ L1: Rn
     L2: R4
         L3: R4_S
             L4: R4_S_D
+                L5: R4_S_D_bridgedphenoxy
+                L5: R4_S_D_cpdylCO
             L4: R4_S_T
             L4: R4_S_CO
         L3: R4_D

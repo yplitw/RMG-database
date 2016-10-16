@@ -91,3 +91,31 @@ Taken from entry: prod2 <=> prod5
 """,
 )
 
+
+
+entry(
+    index = 7,
+    label = "C6H5O <=> C6H5O-2",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(8.68e+11, 's^-1'), n=0.57, Ea=(49.53, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: phenol_pyr""",
+    longDesc = 
+u"""
+Taken from entry: PHENOXY <=> bridgedPhenoxy
+""",
+)
+
+entry(
+    index = 8,
+    label = "C6H5O-3 <=> C6H5O-4",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(7.6e+12, 's^-1'), n=0.14, Ea=(8.11, 'kcal/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: phenol_pyr""",
+    longDesc = 
+u"""
+Taken from entry: bridgedPhenoxy <=> cpdylCO
+""",
+)
+
