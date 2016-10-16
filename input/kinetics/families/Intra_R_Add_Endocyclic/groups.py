@@ -2654,3 +2654,40 @@ u"""
 """,
 )
 
+forbidden(
+    label = "phenoxy",
+    group = 
+"""
+1 *1 C u1 {2,S} {6,S}
+2 CO u0 {1,S} {3,S}
+3 *3 Cd u0 {2,S} {4,D}
+4 *2 Cd u0 {3,D} {5,S}
+5 Cd u0 {4,S} {6,D}
+6 Cd u0 {5,D} {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid phenoxy radical otherwise it will be counted both here and Intra_R_Add_Exocyclic family.
+We forbid this radical here and allow it in the Intra_R_Add_Exocyclic.
+""",
+)
+
+forbidden(
+    label = "bridgedphenoxy",
+    group = 
+"""
+1 *2 C u1 {2,S} {6,S}
+2 *3 C u0 {1,S} {3,S} {4,S}
+3 *1 CO u0 {2,S} {4,S}
+4 C u0 {2,S} {3,S} {5,S}
+5 Cd u0 {4,S} {6,D}
+6 Cd u0 {5,D} {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Forbid bridgedphenoxy radical otherwise it will be counted both here and Intra_R_Add_Exocyclic family.
+We forbid this radical here and allow it in the Intra_R_Add_Exocyclic.
+""",
+)
