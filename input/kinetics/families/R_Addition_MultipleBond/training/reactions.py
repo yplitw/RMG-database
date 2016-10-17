@@ -88,7 +88,6 @@ same initial geometry. It was forced to go back by editing the scan log.
 """,
 )
 
-
 entry(
     index = 4,
     label = "allyl + ethene <=> pent1en5yl",
@@ -368,31 +367,31 @@ Taken from entry: addD <=> CPD + C2H3
 """,
 )
 
-entry(
-    index = 17,
-    label = "C7H9-8 <=> C6H6-2 + CH3",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(2.07e+11, 's^-1'), n=0.83, Ea=(22.8, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
-u"""
-Taken from entry: product2 <=> BENZENE + CH3
-""",
-)
+#entry(
+#    index = 17,
+#    label = "C7H9-8 <=> C6H6-2 + CH3",
+#    degeneracy = 1,
+#    kinetics = Arrhenius(A=(2.07e+11, 's^-1'), n=0.83, Ea=(22.8, 'kcal/mol'), T0=(1, 'K')),
+#    rank = 3,
+#    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
+#    longDesc = 
+#u"""
+#Taken from entry: product2 <=> BENZENE + CH3
+#""",
+#)
 
-entry(
-    index = 18,
-    label = "C7H9-9 <=> C7H8-5 + H",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.03e+09, 's^-1'), n=1.36, Ea=(26.5, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
-u"""
-Taken from entry: product2 <=> TOLUENE + H
-""",
-)
+#entry(
+#    index = 18,
+#    label = "C7H9-9 <=> C7H8-5 + H",
+#    degeneracy = 1,
+#    kinetics = Arrhenius(A=(1.03e+09, 's^-1'), n=1.36, Ea=(26.5, 'kcal/mol'), T0=(1, 'K')),
+#    rank = 3,
+#    shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
+#    longDesc = 
+#u"""
+#Taken from entry: product2 <=> TOLUENE + H
+#""",
+#)
 
 entry(
     index = 19,
@@ -541,7 +540,6 @@ u"""
 Taken from entry: FA + H <=> vinylCPDyl
 """,
 )
-
 
 
 entry(
@@ -820,7 +818,6 @@ Taken from entry: C3H3 + C3H4a <=> prod_29
 )
 
 
-
 entry(
     index = 50,
     label = "C5H6 + C5H5 <=> C10H11",
@@ -865,18 +862,18 @@ Taken from entry: pdt11 + H <=> pdt10bis
 """,
 )
 
-entry(
-    index = 53,
-    label = "C10H11-4 <=> C6H6-2 + C4H5-2",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(7.14e+12, 's^-1'), n=0.52, Ea=(22.9, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
-u"""
-Taken from entry: pdt12 <=> benzene + butadieneyl
-""",
-)
+#entry(
+#    index = 53,
+#    label = "C10H11-4 <=> C6H6-2 + C4H5-2",
+#    degeneracy = 1,
+#    kinetics = Arrhenius(A=(7.14e+12, 's^-1'), n=0.52, Ea=(22.9, 'kcal/mol'), T0=(1, 'K')),
+#    rank = 3,
+#    shortDesc = u"""Training reaction from kinetics library: C10H11""",
+#    longDesc = 
+#u"""
+#Taken from entry: pdt12 <=> benzene + butadieneyl
+#""",
+#)
 
 entry(
     index = 54,
@@ -1112,18 +1109,18 @@ Taken from entry: FULVENE + H <=> C5H5CH2-2
 """,
 )
 
-entry(
-    index = 68,
-    label = "C6H7-8 <=> C6H6-2 + H",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.84e+09, 's^-1'), n=1.3, Ea=(27.4, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
-    longDesc = 
-u"""
-Taken from entry: cyC6H7 <=> benzene + H
-""",
-)
+#entry(
+#    index = 68,
+#    label = "C6H7-8 <=> C6H6-2 + H",
+#    degeneracy = 1,
+#    kinetics = Arrhenius(A=(1.84e+09, 's^-1'), n=1.3, Ea=(27.4, 'kcal/mol'), T0=(1, 'K')),
+#    rank = 3,
+#    shortDesc = u"""Training reaction from kinetics library: Fulvene_H""",
+#    longDesc = 
+#u"""
+#Taken from entry: cyC6H7 <=> benzene + H
+#""",
+#)
 
 
 
@@ -1180,17 +1177,17 @@ u"""
 Taken from entry: biCPD3ene + H <=> adductc
 """,
 )
-
-entry(
-    index = 72,
-    label = "C10H9-4 <=> C10H8-4 + H",
-    degeneracy = 1,
-    kinetics = Arrhenius(A=(1.34e+08, 's^-1'), n=1.55, Ea=(15.3, 'kcal/mol'), T0=(1, 'K')),
-    rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
-    longDesc = 
-u"""
-Taken from entry: prod4 <=> naphthalene + H
-""",
-)
+#
+#entry(
+#    index = 72,
+#    label = "C10H9-4 <=> C10H8-4 + H",
+#    degeneracy = 1,
+#    kinetics = Arrhenius(A=(1.34e+08, 's^-1'), n=1.55, Ea=(15.3, 'kcal/mol'), T0=(1, 'K')),
+#    rank = 3,
+#    shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
+#    longDesc = 
+#u"""
+#Taken from entry: prod4 <=> naphthalene + H
+#""",
+#)
 
