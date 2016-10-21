@@ -5279,3 +5279,1000 @@ u"""
 """,
 )
 
+forbidden(
+    label = "benzene_ortho0_0_r0",
+    group = 
+"""
+1 *1 C u1 {2,B} {6,B}
+2 *2 C u0 {1,B} {3,B} {7,S}
+3    C u0 {2,B} {4,B}
+4    C u0 {3,B} {5,B}
+5    C u0 {4,B} {6,B}
+6    C u0 {1,B} {5,B}
+7 *3 H u0 {2,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_ortho0_0_r1",
+    group = 
+"""
+1 *1 C u1 {2,[S,D]} {6,[S,D]}
+2 *2 C u0 {1,[S,D]} {3,[S,D]} {7,S}
+3    C u0 {2,[S,D]} {4,[S,D]}
+4    C u0 {3,[S,D]} {5,[S,D]}
+5    C u0 {4,[S,D]} {6,[S,D]}
+6    C u0 {1,[S,D]} {5,[S,D]}
+7 *3 H u0 {2,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_ortho0_1_r0",
+    group = 
+"""
+1 *1 C   u1 {2,B} {6,B}
+2    C   u0 {1,B} {3,B} {7,[S,D]}
+3    C   u0 {2,B} {4,B}
+4    C   u0 {3,B} {5,B}
+5    C   u0 {4,B} {6,B}
+6    C   u0 {1,B} {5,B}
+7 *2 R!H u0 {2,[S,D]} {8,S}
+8 *3 H   u0 {7,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_ortho0_1_r1",
+    group = 
+"""
+1 *1 C   u1 {2,[S,D]} {6,[S,D]}
+2    C   u0 {1,[S,D]} {3,[S,D]} {7,[S,D]}
+3    C   u0 {2,[S,D]} {4,[S,D]}
+4    C   u0 {3,[S,D]} {5,[S,D]}
+5    C   u0 {4,[S,D]} {6,[S,D]}
+6    C   u0 {1,[S,D]} {5,[S,D]}
+7 *2 R!H u0 {2,[S,D]} {8,S}
+8 *3 H   u0 {7,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_ortho1_0_r0",
+    group = 
+"""
+1    C   u0 {2,B} {6,B} {7,[S,D]}
+2 *2 C   u0 {1,B} {3,B} {8,S}
+3    C   u0 {2,B} {4,B}
+4    C   u0 {3,B} {5,B}
+5    C   u0 {4,B} {6,B}
+6    C   u0 {1,B} {5,B}
+7 *1 R!H u1 {1,[S,D]}
+8 *3 H   u0 {2,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_ortho1_0_r1",
+    group = 
+"""
+1    C   u0 {2,[S,D]} {6,[S,D]} {7,[S,D]}
+2 *2 C   u0 {1,[S,D]} {3,[S,D]} {8,S}
+3    C   u0 {2,[S,D]} {4,[S,D]}
+4    C   u0 {3,[S,D]} {5,[S,D]}
+5    C   u0 {4,[S,D]} {6,[S,D]}
+6    C   u0 {1,[S,D]} {5,[S,D]}
+7 *1 R!H u1 {1,[S,D]}
+8 *3 H   u0 {2,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_ortho1_1_r0",
+    group = 
+"""
+1    C   u0 {2,B} {6,B} {7,[S,D]}
+2    C   u0 {1,B} {3,B} {8,[S,D]}
+3    C   u0 {2,B} {4,B}
+4    C   u0 {3,B} {5,B}
+5    C   u0 {4,B} {6,B}
+6    C   u0 {1,B} {5,B}
+7 *1 R!H u1 {1,[S,D]}
+8 *2 R!H u0 {2,[S,D]} {9,S}
+9 *3 H   u0 {8,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_ortho1_1_r1",
+    group = 
+"""
+1    C   u0 {2,[S,D]} {6,[S,D]} {7,[S,D]}
+2    C   u0 {1,[S,D]} {3,[S,D]} {8,[S,D]}
+3    C   u0 {2,[S,D]} {4,[S,D]}
+4    C   u0 {3,[S,D]} {5,[S,D]}
+5    C   u0 {4,[S,D]} {6,[S,D]}
+6    C   u0 {1,[S,D]} {5,[S,D]}
+7 *1 R!H u1 {1,[S,D]}
+8 *2 R!H u0 {2,[S,D]} {9,S}
+9 *3 H   u0 {8,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta0_0_r0",
+    group = 
+"""
+1 *1 C u1 {2,B} {6,B}
+2    C u0 {1,B} {3,B}
+3 *2 C u0 {2,B} {4,B} {7,S}
+4    C u0 {3,B} {5,B}
+5    C u0 {4,B} {6,B}
+6    C u0 {1,B} {5,B}
+7 *3 H u0 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta0_0_r1",
+    group = 
+"""
+1 *1 C u1 {2,[S,D]} {6,[S,D]}
+2    C u0 {1,[S,D]} {3,[S,D]}
+3 *2 C u0 {2,[S,D]} {4,[S,D]} {7,S}
+4    C u0 {3,[S,D]} {5,[S,D]}
+5    C u0 {4,[S,D]} {6,[S,D]}
+6    C u0 {1,[S,D]} {5,[S,D]}
+7 *3 H u0 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta0_1_r0",
+    group = 
+"""
+1 *1 C   u1 {2,B} {6,B}
+2    C   u0 {1,B} {3,B}
+3    C   u0 {2,B} {4,B} {7,[S,D]}
+4    C   u0 {3,B} {5,B}
+5    C   u0 {4,B} {6,B}
+6    C   u0 {1,B} {5,B}
+7 *2 R!H u0 {3,[S,D]} {8,S}
+8 *3 H   u0 {7,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta0_1_r1",
+    group = 
+"""
+1 *1 C   u1 {2,[S,D]} {6,[S,D]}
+2    C   u0 {1,[S,D]} {3,[S,D]}
+3    C   u0 {2,[S,D]} {4,[S,D]} {7,[S,D]}
+4    C   u0 {3,[S,D]} {5,[S,D]}
+5    C   u0 {4,[S,D]} {6,[S,D]}
+6    C   u0 {1,[S,D]} {5,[S,D]}
+7 *2 R!H u0 {3,[S,D]} {8,S}
+8 *3 H   u0 {7,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta1_0_r0",
+    group = 
+"""
+1    C   u0 {2,B} {6,B} {7,[S,D]}
+2    C   u0 {1,B} {3,B}
+3 *2 C   u0 {2,B} {4,B} {8,S}
+4    C   u0 {3,B} {5,B}
+5    C   u0 {4,B} {6,B}
+6    C   u0 {1,B} {5,B}
+7 *1 R!H u1 {1,[S,D]}
+8 *3 H   u0 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta1_0_r1",
+    group = 
+"""
+1    C   u0 {2,[S,D]} {6,[S,D]} {7,[S,D]}
+2    C   u0 {1,[S,D]} {3,[S,D]}
+3 *2 C   u0 {2,[S,D]} {4,[S,D]} {8,S}
+4    C   u0 {3,[S,D]} {5,[S,D]}
+5    C   u0 {4,[S,D]} {6,[S,D]}
+6    C   u0 {1,[S,D]} {5,[S,D]}
+7 *1 R!H u1 {1,[S,D]}
+8 *3 H   u0 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta1_1_r0",
+    group = 
+"""
+1    C   u0 {2,B} {6,B} {7,[S,D]}
+2    C   u0 {1,B} {3,B}
+3    C   u0 {2,B} {4,B} {8,[S,D]}
+4    C   u0 {3,B} {5,B}
+5    C   u0 {4,B} {6,B}
+6    C   u0 {1,B} {5,B}
+7 *1 R!H u1 {1,[S,D]}
+8 *2 R!H u0 {3,[S,D]} {9,S}
+9 *3 H   u0 {8,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta1_1_r1",
+    group = 
+"""
+1    C   u0 {2,[S,D]} {6,[S,D]} {7,[S,D]}
+2    C   u0 {1,[S,D]} {3,[S,D]}
+3    C   u0 {2,[S,D]} {4,[S,D]} {8,[S,D]}
+4    C   u0 {3,[S,D]} {5,[S,D]}
+5    C   u0 {4,[S,D]} {6,[S,D]}
+6    C   u0 {1,[S,D]} {5,[S,D]}
+7 *1 R!H u1 {1,[S,D]}
+8 *2 R!H u0 {3,[S,D]} {9,S}
+9 *3 H   u0 {8,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta2_0_r0",
+    group = 
+"""
+1    C   u0 {2,B} {6,B} {7,[S,D]}
+2    C   u0 {1,B} {3,B}
+3 *2 C   u0 {2,B} {4,B} {9,S}
+4    C   u0 {3,B} {5,B}
+5    C   u0 {4,B} {6,B}
+6    C   u0 {1,B} {5,B}
+7    R!H u0 {1,[S,D]} {8,[S,D]}
+8 *1 R!H u1 {7,[S,D]}
+9 *3 H   u0 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta2_0_r1",
+    group = 
+"""
+1    C   u0 {2,[S,D]} {6,[S,D]} {7,[S,D]}
+2    C   u0 {1,[S,D]} {3,[S,D]}
+3 *2 C   u0 {2,[S,D]} {4,[S,D]} {9,S}
+4    C   u0 {3,[S,D]} {5,[S,D]}
+5    C   u0 {4,[S,D]} {6,[S,D]}
+6    C   u0 {1,[S,D]} {5,[S,D]}
+7    R!H u0 {1,[S,D]} {8,[S,D]}
+8 *1 R!H u1 {7,[S,D]}
+9 *3 H   u0 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta0_2_r0",
+    group = 
+"""
+1 *1 C   u1 {2,B} {6,B}
+2    C   u0 {1,B} {3,B}
+3    C   u0 {2,B} {4,B} {7,[S,D]}
+4    C   u0 {3,B} {5,B}
+5    C   u0 {4,B} {6,B}
+6    C   u0 {1,B} {5,B}
+7    R!H u0 {3,[S,D]} {8,[S,D]}
+8 *2 R!H u0 {7,[S,D]} {9,S}
+9 *3 H   u0 {8,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta0_2_r1",
+    group = 
+"""
+1 *1 C   u1 {2,[S,D]} {6,[S,D]}
+2    C   u0 {1,[S,D]} {3,[S,D]}
+3    C   u0 {2,[S,D]} {4,[S,D]} {7,[S,D]}
+4    C   u0 {3,[S,D]} {5,[S,D]}
+5    C   u0 {4,[S,D]} {6,[S,D]}
+6    C   u0 {1,[S,D]} {5,[S,D]}
+7    R!H u0 {3,[S,D]} {8,[S,D]}
+8 *2 R!H u0 {7,[S,D]} {9,S}
+9 *3 H   u0 {8,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta2_1_r0",
+    group = 
+"""
+1     C   u0 {2,B} {6,B} {7,[S,D]}
+2     C   u0 {1,B} {3,B}
+3     C   u0 {2,B} {4,B} {9,[S,D]}
+4     C   u0 {3,B} {5,B}
+5     C   u0 {4,B} {6,B}
+6     C   u0 {1,B} {5,B}
+7     R!H u0 {1,[S,D]} {8,[S,D]}
+8  *1 R!H u1 {7,[S,D]}
+9  *2 R!H u0 {3,[S,D]} {10,S}
+10 *3 H   u0 {9,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta2_1_r1",
+    group = 
+"""
+1     C   u0 {2,[S,D]} {6,[S,D]} {7,[S,D]}
+2     C   u0 {1,[S,D]} {3,[S,D]}
+3     C   u0 {2,[S,D]} {4,[S,D]} {9,[S,D]}
+4     C   u0 {3,[S,D]} {5,[S,D]}
+5     C   u0 {4,[S,D]} {6,[S,D]}
+6     C   u0 {1,[S,D]} {5,[S,D]}
+7     R!H u0 {1,[S,D]} {8,[S,D]}
+8  *1 R!H u1 {7,[S,D]}
+9  *2 R!H u0 {3,[S,D]} {10,S}
+10 *3 H   u0 {9,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta1_2_r0",
+    group = 
+"""
+1     C   u0 {2,B} {6,B} {7,[S,D]}
+2     C   u0 {1,B} {3,B}
+3     C   u0 {2,B} {4,B} {8,[S,D]}
+4     C   u0 {3,B} {5,B}
+5     C   u0 {4,B} {6,B}
+6     C   u0 {1,B} {5,B}
+7  *1 R!H u1 {1,[S,D]}
+8     R!H u0 {3,[S,D]} {9,[S,D]}
+9  *2 R!H u0 {8,[S,D]} {10,S}
+10 *3 H   u0 {9,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta1_2_r1",
+    group = 
+"""
+1     C   u0 {2,[S,D]} {6,[S,D]} {7,[S,D]}
+2     C   u0 {1,[S,D]} {3,[S,D]}
+3     C   u0 {2,[S,D]} {4,[S,D]} {8,[S,D]}
+4     C   u0 {3,[S,D]} {5,[S,D]}
+5     C   u0 {4,[S,D]} {6,[S,D]}
+6     C   u0 {1,[S,D]} {5,[S,D]}
+7  *1 R!H u1 {1,[S,D]}
+8     R!H u0 {3,[S,D]} {9,[S,D]}
+9  *2 R!H u0 {8,[S,D]} {10,S}
+10 *3 H   u0 {9,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta2_2_r0",
+    group = 
+"""
+1     C   u0 {2,B} {6,B} {7,[S,D]}
+2     C   u0 {1,B} {3,B}
+3     C   u0 {2,B} {4,B} {9,[S,D]}
+4     C   u0 {3,B} {5,B}
+5     C   u0 {4,B} {6,B}
+6     C   u0 {1,B} {5,B}
+7     R!H u0 {1,[S,D]} {8,[S,D]}
+8  *1 R!H u1 {7,[S,D]}
+9     R!H u0 {3,[S,D]} {10,[S,D]}
+10 *2 R!H u0 {9,[S,D]} {11,S}
+11 *3 H   u0 {10,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta2_2_r1",
+    group = 
+"""
+1     C   u0 {2,[S,D]} {6,[S,D]} {7,[S,D]}
+2     C   u0 {1,[S,D]} {3,[S,D]}
+3     C   u0 {2,[S,D]} {4,[S,D]} {9,[S,D]}
+4     C   u0 {3,[S,D]} {5,[S,D]}
+5     C   u0 {4,[S,D]} {6,[S,D]}
+6     C   u0 {1,[S,D]} {5,[S,D]}
+7     R!H u0 {1,[S,D]} {8,[S,D]}
+8  *1 R!H u1 {7,[S,D]}
+9     R!H u0 {3,[S,D]} {10,[S,D]}
+10 *2 R!H u0 {9,[S,D]} {11,S}
+11 *3 H   u0 {10,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta3_0_r0",
+    group = 
+"""
+1     C   u0 {2,B} {6,B} {7,[S,D]}
+2     C   u0 {1,B} {3,B}
+3  *2 C   u0 {2,B} {4,B} {10,S}
+4     C   u0 {3,B} {5,B}
+5     C   u0 {4,B} {6,B}
+6     C   u0 {1,B} {5,B}
+7     R!H u0 {1,[S,D]} {8,[S,D]}
+8     R!H u0 {7,[S,D]} {9,[S,D]}
+9  *1 R!H u1 {8,[S,D]}
+10 *3 H   u0 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta3_0_r1",
+    group = 
+"""
+1     C   u0 {2,[S,D]} {6,[S,D]} {7,[S,D]}
+2     C   u0 {1,[S,D]} {3,[S,D]}
+3  *2 C   u0 {2,[S,D]} {4,[S,D]} {10,S}
+4     C   u0 {3,[S,D]} {5,[S,D]}
+5     C   u0 {4,[S,D]} {6,[S,D]}
+6     C   u0 {1,[S,D]} {5,[S,D]}
+7     R!H u0 {1,[S,D]} {8,[S,D]}
+8     R!H u0 {7,[S,D]} {9,[S,D]}
+9  *1 R!H u1 {8,[S,D]}
+10 *3 H   u0 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta0_3_r0",
+    group = 
+"""
+1  *1 C   u1 {2,B} {6,B}
+2     C   u0 {1,B} {3,B}
+3     C   u0 {2,B} {4,B} {7,[S,D]}
+4     C   u0 {3,B} {5,B}
+5     C   u0 {4,B} {6,B}
+6     C   u0 {1,B} {5,B}
+7     R!H u0 {3,[S,D]} {8,[S,D]}
+8     R!H u0 {7,[S,D]} {9,[S,D]}
+9  *2 R!H u0 {8,[S,D]} {10,S}
+10 *3 H   u0 {9,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "benzene_meta0_3_r1",
+    group = 
+"""
+1  *1 C   u1 {2,[S,D]} {6,[S,D]}
+2     C   u0 {1,[S,D]} {3,[S,D]}
+3     C   u0 {2,[S,D]} {4,[S,D]} {7,[S,D]}
+4     C   u0 {3,[S,D]} {5,[S,D]}
+5     C   u0 {4,[S,D]} {6,[S,D]}
+6     C   u0 {1,[S,D]} {5,[S,D]}
+7     R!H u0 {3,[S,D]} {8,[S,D]}
+8     R!H u0 {7,[S,D]} {9,[S,D]}
+9  *2 R!H u0 {8,[S,D]} {10,S}
+10 *3 H   u0 {9,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para0_0_r0",
+    group = 
+"""
+1 *1 C u1 {2,B} {6,B}
+2    C u0 {1,B} {3,B}
+3    C u0 {2,B} {4,B}
+4 *2 C u0 {3,B} {5,B} {7,S}
+5    C u0 {4,B} {6,B}
+6    C u0 {1,B} {5,B}
+7 *3 H u0 {4,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para0_0_r1",
+    group = 
+"""
+1 *1 C u1 {2,[S,D]} {6,[S,D]}
+2    C u0 {1,[S,D]} {3,[S,D]}
+3    C u0 {2,[S,D]} {4,[S,D]}
+4 *2 C u0 {3,[S,D]} {5,[S,D]} {7,S}
+5    C u0 {4,[S,D]} {6,[S,D]}
+6    C u0 {1,[S,D]} {5,[S,D]}
+7 *3 H u0 {4,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para0_1_r0",
+    group = 
+"""
+1 *1 C   u1 {2,B} {6,B}
+2    C   u0 {1,B} {3,B}
+3    C   u0 {2,B} {4,B}
+4    C   u0 {3,B} {5,B} {7,[S,D]}
+5    C   u0 {4,B} {6,B}
+6    C   u0 {1,B} {5,B}
+7 *2 R!H u0 {4,[S,D]} {8,S}
+8 *3 H   u0 {7,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para0_1_r1",
+    group = 
+"""
+1 *1 C   u1 {2,[S,D]} {6,[S,D]}
+2    C   u0 {1,[S,D]} {3,[S,D]}
+3    C   u0 {2,[S,D]} {4,[S,D]}
+4    C   u0 {3,[S,D]} {5,[S,D]} {7,[S,D]}
+5    C   u0 {4,[S,D]} {6,[S,D]}
+6    C   u0 {1,[S,D]} {5,[S,D]}
+7 *2 R!H u0 {4,[S,D]} {8,S}
+8 *3 H   u0 {7,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para1_0_r0",
+    group = 
+"""
+1    C   u0 {2,B} {6,B} {7,[S,D]}
+2    C   u0 {1,B} {3,B}
+3    C   u0 {2,B} {4,B}
+4 *2 C   u0 {3,B} {5,B} {8,S}
+5    C   u0 {4,B} {6,B}
+6    C   u0 {1,B} {5,B}
+7 *1 R!H u1 {1,[S,D]}
+8 *3 H   u0 {4,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para1_0_r1",
+    group = 
+"""
+1    C   u0 {2,[S,D]} {6,[S,D]} {7,[S,D]}
+2    C   u0 {1,[S,D]} {3,[S,D]}
+3    C   u0 {2,[S,D]} {4,[S,D]}
+4 *2 C   u0 {3,[S,D]} {5,[S,D]} {8,S}
+5    C   u0 {4,[S,D]} {6,[S,D]}
+6    C   u0 {1,[S,D]} {5,[S,D]}
+7 *1 R!H u1 {1,[S,D]}
+8 *3 H   u0 {4,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para1_1_r0",
+    group = 
+"""
+1    C   u0 {2,B} {6,B} {7,[S,D]}
+2    C   u0 {1,B} {3,B}
+3    C   u0 {2,B} {4,B}
+4    C   u0 {3,B} {5,B} {8,[S,D]}
+5    C   u0 {4,B} {6,B}
+6    C   u0 {1,B} {5,B}
+7 *1 R!H u1 {1,[S,D]}
+8 *2 R!H u0 {4,[S,D]} {9,S}
+9 *3 H   u0 {8,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para1_1_r1",
+    group = 
+"""
+1    C   u0 {2,[S,D]} {6,[S,D]} {7,[S,D]}
+2    C   u0 {1,[S,D]} {3,[S,D]}
+3    C   u0 {2,[S,D]} {4,[S,D]}
+4    C   u0 {3,[S,D]} {5,[S,D]} {8,[S,D]}
+5    C   u0 {4,[S,D]} {6,[S,D]}
+6    C   u0 {1,[S,D]} {5,[S,D]}
+7 *1 R!H u1 {1,[S,D]}
+8 *2 R!H u0 {4,[S,D]} {9,S}
+9 *3 H   u0 {8,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para2_0_r0",
+    group = 
+"""
+1    C   u0 {2,B} {6,B} {7,[S,D]}
+2    C   u0 {1,B} {3,B}
+3    C   u0 {2,B} {4,B}
+4 *2 C   u0 {3,B} {5,B} {9,S}
+5    C   u0 {4,B} {6,B}
+6    C   u0 {1,B} {5,B}
+7    R!H u0 {1,[S,D]} {8,[S,D]}
+8 *1 R!H u1 {7,[S,D]}
+9 *3 H   u0 {4,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para2_0_r1",
+    group = 
+"""
+1    C   u0 {2,[S,D]} {6,[S,D]} {7,[S,D]}
+2    C   u0 {1,[S,D]} {3,[S,D]}
+3    C   u0 {2,[S,D]} {4,[S,D]}
+4 *2 C   u0 {3,[S,D]} {5,[S,D]} {9,S}
+5    C   u0 {4,[S,D]} {6,[S,D]}
+6    C   u0 {1,[S,D]} {5,[S,D]}
+7    R!H u0 {1,[S,D]} {8,[S,D]}
+8 *1 R!H u1 {7,[S,D]}
+9 *3 H   u0 {4,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para0_2_r0",
+    group = 
+"""
+1 *1 C   u1 {2,B} {6,B}
+2    C   u0 {1,B} {3,B}
+3    C   u0 {2,B} {4,B}
+4    C   u0 {3,B} {5,B} {7,[S,D]}
+5    C   u0 {4,B} {6,B}
+6    C   u0 {1,B} {5,B}
+7    R!H u0 {4,[S,D]} {8,[S,D]}
+8 *2 R!H u0 {7,[S,D]} {9,S}
+9 *3 H   u0 {8,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para0_2_r1",
+    group = 
+"""
+1 *1 C   u1 {2,[S,D]} {6,[S,D]}
+2    C   u0 {1,[S,D]} {3,[S,D]}
+3    C   u0 {2,[S,D]} {4,[S,D]}
+4    C   u0 {3,[S,D]} {5,[S,D]} {7,[S,D]}
+5    C   u0 {4,[S,D]} {6,[S,D]}
+6    C   u0 {1,[S,D]} {5,[S,D]}
+7    R!H u0 {4,[S,D]} {8,[S,D]}
+8 *2 R!H u0 {7,[S,D]} {9,S}
+9 *3 H   u0 {8,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para2_1_r0",
+    group = 
+"""
+1     C   u0 {2,B} {6,B} {7,[S,D]}
+2     C   u0 {1,B} {3,B}
+3     C   u0 {2,B} {4,B}
+4     C   u0 {3,B} {5,B} {9,[S,D]}
+5     C   u0 {4,B} {6,B}
+6     C   u0 {1,B} {5,B}
+7     R!H u0 {1,[S,D]} {8,[S,D]}
+8  *1 R!H u1 {7,[S,D]}
+9  *2 R!H u0 {4,[S,D]} {10,S}
+10 *3 H   u0 {9,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para2_1_r1",
+    group = 
+"""
+1     C   u0 {2,[S,D]} {6,[S,D]} {7,[S,D]}
+2     C   u0 {1,[S,D]} {3,[S,D]}
+3     C   u0 {2,[S,D]} {4,[S,D]}
+4     C   u0 {3,[S,D]} {5,[S,D]} {9,[S,D]}
+5     C   u0 {4,[S,D]} {6,[S,D]}
+6     C   u0 {1,[S,D]} {5,[S,D]}
+7     R!H u0 {1,[S,D]} {8,[S,D]}
+8  *1 R!H u1 {7,[S,D]}
+9  *2 R!H u0 {4,[S,D]} {10,S}
+10 *3 H   u0 {9,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para1_2_r0",
+    group = 
+"""
+1     C   u0 {2,B} {6,B} {7,[S,D]}
+2     C   u0 {1,B} {3,B}
+3     C   u0 {2,B} {4,B}
+4     C   u0 {3,B} {5,B} {8,[S,D]}
+5     C   u0 {4,B} {6,B}
+6     C   u0 {1,B} {5,B}
+7  *1 R!H u1 {1,[S,D]}
+8     R!H u0 {4,[S,D]} {9,[S,D]}
+9  *2 R!H u0 {8,[S,D]} {10,S}
+10 *3 H   u0 {9,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para1_2_r1",
+    group = 
+"""
+1     C   u0 {2,[S,D]} {6,[S,D]} {7,[S,D]}
+2     C   u0 {1,[S,D]} {3,[S,D]}
+3     C   u0 {2,[S,D]} {4,[S,D]}
+4     C   u0 {3,[S,D]} {5,[S,D]} {8,[S,D]}
+5     C   u0 {4,[S,D]} {6,[S,D]}
+6     C   u0 {1,[S,D]} {5,[S,D]}
+7  *1 R!H u1 {1,[S,D]}
+8     R!H u0 {4,[S,D]} {9,[S,D]}
+9  *2 R!H u0 {8,[S,D]} {10,S}
+10 *3 H   u0 {9,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para3_0_r0",
+    group = 
+"""
+1     C   u0 {2,B} {6,B} {7,[S,D]}
+2     C   u0 {1,B} {3,B}
+3     C   u0 {2,B} {4,B}
+4  *2 C   u0 {3,B} {5,B} {10,S}
+5     C   u0 {4,B} {6,B}
+6     C   u0 {1,B} {5,B}
+7     R!H u0 {1,[S,D]} {8,[S,D]}
+8     R!H u0 {7,[S,D]} {9,[S,D]}
+9  *1 R!H u1 {8,[S,D]}
+10 *3 H   u0 {4,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para3_0_r1",
+    group = 
+"""
+1     C   u0 {2,[S,D]} {6,[S,D]} {7,[S,D]}
+2     C   u0 {1,[S,D]} {3,[S,D]}
+3     C   u0 {2,[S,D]} {4,[S,D]}
+4  *2 C   u0 {3,[S,D]} {5,[S,D]} {10,S}
+5     C   u0 {4,[S,D]} {6,[S,D]}
+6     C   u0 {1,[S,D]} {5,[S,D]}
+7     R!H u0 {1,[S,D]} {8,[S,D]}
+8     R!H u0 {7,[S,D]} {9,[S,D]}
+9  *1 R!H u1 {8,[S,D]}
+10 *3 H   u0 {4,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para0_3_r0",
+    group = 
+"""
+1  *1 C   u1 {2,B} {6,B}
+2     C   u0 {1,B} {3,B}
+3     C   u0 {2,B} {4,B}
+4     C   u0 {3,B} {5,B} {7,[S,D]}
+5     C   u0 {4,B} {6,B}
+6     C   u0 {1,B} {5,B}
+7     R!H u0 {4,[S,D]} {8,[S,D]}
+8     R!H u0 {7,[S,D]} {9,[S,D]}
+9  *2 R!H u0 {8,[S,D]} {10,S}
+10 *3 H   u0 {9,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+forbidden(
+    label = "bezene_para0_3_r1",
+    group = 
+"""
+1  *1 C   u1 {2,[S,D]} {6,[S,D]}
+2     C   u0 {1,[S,D]} {3,[S,D]}
+3     C   u0 {2,[S,D]} {4,[S,D]}
+4     C   u0 {3,[S,D]} {5,[S,D]} {7,[S,D]}
+5     C   u0 {4,[S,D]} {6,[S,D]}
+6     C   u0 {1,[S,D]} {5,[S,D]}
+7     R!H u0 {4,[S,D]} {8,[S,D]}
+8     R!H u0 {7,[S,D]} {9,[S,D]}
+9  *2 R!H u0 {8,[S,D]} {10,S}
+10 *3 H   u0 {9,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+"""
+Forbidden because TS would be too strained. May be resonance structure of other groups.""",
+)
+
+
