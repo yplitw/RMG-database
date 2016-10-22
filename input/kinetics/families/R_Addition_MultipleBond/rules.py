@@ -40974,3 +40974,18 @@ entry(
     around single bonds, tunneling with Eckart potentials.
     """
 )
+
+entry(
+    index = 3137,
+    label = "Cds-CdH_Cds-CdH;YJ",
+    kinetics = ArrheniusEP(
+        A = (46.2, 'cm^3/(mol*s)'),
+        n = 3.09,
+        alpha = 0,
+        E0 = (7.2, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1100, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Dummy rate rule only used for cresol project. PengZhang, Oct-22-2016""",
+)
