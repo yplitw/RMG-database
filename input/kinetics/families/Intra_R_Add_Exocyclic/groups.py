@@ -2958,3 +2958,42 @@ u"""
 """,
 )
 
+forbidden(
+    label = "R6_para_1",
+    group = 
+"""
+1 C ux {6,[S,D]} {2,[S,D]} (7,S)
+2 C ux {1,[S,D]} {3,[S,D]}
+3 C ux {2,[S,D]} {4,[S,D]}
+4 C ux {3,[S,D]} {5,[S,D]} {8,S}
+5 C ux {4,[S,D]} {6,[S,D]}
+6 C ux {5,[S,D]} {1,[S,D]}
+7 *1 R u1 {1,S}
+8 *2 R ux {4,S} {9,D}
+9 *3 R ux {8,D}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+forbidden(
+    label = "R6_para_2",
+    group = 
+"""
+1 C ux {6,[S,D]} {2,[S,D]} (7,S)
+2 C ux {1,[S,D]} {3,[S,D]}
+3 *3 Cd ux {2,[S,D]} {4,D}
+4 *2 Cd u0 {3,D} {5,[S,D]}
+5 C ux {4,[S,D]} {6,[S,D]}
+6 C ux {5,[S,D]} {1,[S,D]}
+7 R ux {1,S} {8,S}
+8 *1 R u1 {7,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
