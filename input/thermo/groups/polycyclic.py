@@ -2405,7 +2405,7 @@ Fitted from molecule s2_3_5_ane from Bicyclics_QM_190_isomorphic library.
 entry(
     index = 0,
     label = "s2_3_5_ene",
-    group = "OR{s2_3_5_ene_1, s2_3_5_ene_side, s2_3_5_ene_1_side}",
+    group = "OR{s2_3_5_ene_1, s2_3_5_ene_1_side}",
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
@@ -2441,7 +2441,7 @@ Fitted from molecule s2_3_5_ene_1 from Bicyclics_QM_190_isomorphic library.
 
 entry(
     index = 65,
-    label = "s2_3_5_ene_side",
+    label = "s2_3_5_ane_side",
     group = 
 """
 1 * R!H u0 {2,S} {4,S} {6,S}
@@ -7006,7 +7006,7 @@ Fitted from molecule s3_5_5_ane from Bicyclics_QM_190_isomorphic library.
 entry(
     index = 0,
     label = "s3_5_5_ene",
-    group = "OR{s3_5_5_ene_0, s3_5_5_ene_1, s3_5_5_ene_side, s3_5_5_ene_m}",
+    group = "OR{s3_5_5_ene_0, s3_5_5_ene_1, s3_5_5_ene_m}",
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
@@ -7070,7 +7070,7 @@ Fitted from molecule s3_5_5_ene_1 from Bicyclics_QM_190_isomorphic library.
 
 entry(
     index = 159,
-    label = "s3_5_5_ene_side",
+    label = "s3_5_5_ane_side",
     group = 
 """
 1   R!H u0 {3,S} {4,S} {6,S}
@@ -8594,10 +8594,10 @@ L1: PolycyclicRing
             L4: s2_3_4_ene_m
     L2: s2_3_5
         L3: s2_3_5_ane
+            L4: s2_3_5_ane_side 
         L3: s2_3_5_ene
             L4: s2_3_5_ene_1_side
             L4: s2_3_5_ene_1
-            L4: s2_3_5_ene_side 
     L2: s2_3_6
         L3: s2_3_6_ane
         L3: s2_3_6_ene
@@ -8780,10 +8780,10 @@ L1: PolycyclicRing
             L4: s3_4_6_diene_1_5
     L2: s3_5_5
         L3: s3_5_5_ane
+            L4: s3_5_5_ane_side
         L3: s3_5_5_ene
             L4: s3_5_5_ene_0
             L4: s3_5_5_ene_1
-            L4: s3_5_5_ene_side
             L4: s3_5_5_ene_m
         L3: s3_5_5_diene
             L4: s3_5_5_diene_1_4
