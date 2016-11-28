@@ -3719,29 +3719,30 @@ u"""
 """,
 )
 
-entry(
-    index = 138,
-    label = "Cds-Cds(Cds-Od)H",
-    group = 
-"""
-1 * Cd u0 {2,S} {3,D} {4,S}
-2   CO u0 {1,S} {5,D}
-3   Cd u0 {1,D}
-4   H  u0 {1,S}
-5   Od u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.46,5.79,6.75,7.42,8.35,9.11,10.09],'cal/(mol*K)','+|-',[0.1,0.1,0.1,0.1,0.1,0.1,0.1]),
-        H298 = (4.32,'kcal/mol','+|-',0.2),
-        S298 = (6.38,'cal/(mol*K)','+|-',0.1),
-    ),
-    shortDesc = u"""Cd-COH BOZZELLI lit rev Jul91 S,Cp Cd/Cd/H""",
-    longDesc = 
-u"""
-
-""",
-)
+# Replaced by a recently calculated value.
+#entry(
+#    index = 138,
+#    label = "Cds-Cds(Cds-Od)H",
+#    group = 
+#"""
+#1 * Cd u0 {2,S} {3,D} {4,S}
+#2   CO u0 {1,S} {5,D}
+#3   Cd u0 {1,D}
+#4   H  u0 {1,S}
+#5   Od u0 {2,D}
+#""",
+#    thermo = ThermoData(
+#        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#        Cpdata = ([4.46,5.79,6.75,7.42,8.35,9.11,10.09],'cal/(mol*K)','+|-',[0.1,0.1,0.1,0.1,0.1,0.1,0.1]),
+#        H298 = (4.32,'kcal/mol','+|-',0.2),
+#        S298 = (6.38,'cal/(mol*K)','+|-',0.1),
+#    ),
+#    shortDesc = u"""Cd-COH BOZZELLI lit rev Jul91 S,Cp Cd/Cd/H""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
 
 entry(
     index = 139,
@@ -3805,25 +3806,26 @@ u"""
 """,
 )
 
-entry(
-    index = 142,
-    label = "Cds-Cds(Cds-Cdd-Od)H",
-    group = 
-"""
-1 * Cd  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
-3   Cdd u0 {2,D} {6,D}
-4   Cd  u0 {1,D}
-5   H   u0 {1,S}
-6   Od  u0 {3,D}
-""",
-    thermo = u'Cds-Cds(Cds-Cds)H',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# Replaced by a recently calculated value.
+#entry(
+#    index = 142,
+#    label = "Cds-Cds(Cds-Cdd-Od)H",
+#    group = 
+#"""
+#1 * Cd  u0 {2,S} {4,D} {5,S}
+#2   Cd  u0 {1,S} {3,D}
+#3   Cdd u0 {2,D} {6,D}
+#4   Cd  u0 {1,D}
+#5   H   u0 {1,S}
+#6   Od  u0 {3,D}
+#""",
+#    thermo = u'Cds-Cds(Cds-Cds)H',
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
 
 entry(
     index = -1,
@@ -4630,13 +4632,13 @@ u"""
 
 entry(
     index = 1999,
-    label = "Cd-Cd(CO)H",
+    label = "Cds-Cds(Cds-Od)H",
     group = 
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cd u0 {2,S} {3,D} {4,S}
 2   CO u0 {1,S} {5,D}
-3   H  u0 {1,S}
-4   C  u0 {1,D}
+3   Cd u0 {1,D}
+4   H  u0 {1,S}
 5   Od u0 {2,D}
 """,
     thermo = ThermoData(
@@ -4656,14 +4658,14 @@ DOI: 10.1002/chem.201301381
 
 entry(
     index = 2000,
-    label = "Cd-Cd(CCO)H",
+    label = "Cds-Cds(Cds-Cdd-Od)H",
     group = 
 """
-1 * Cd  u0 {2,S} {4,S} {5,D}
+1 * Cd  u0 {2,S} {4,D} {5,S}
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   H   u0 {1,S}
-5   C   u0 {1,D}
+4   Cd  u0 {1,D}
+5   H   u0 {1,S}
 6   Od  u0 {3,D}
 """,
     thermo = ThermoData(
@@ -6032,29 +6034,30 @@ u"""
 """,
 )
 
-entry(
-    index = 203,
-    label = "Cds-Cds(Cds-Od)Cs",
-    group = 
-"""
-1 * Cd u0 {2,S} {3,D} {4,S}
-2   CO u0 {1,S} {5,D}
-3   Cd u0 {1,D}
-4   Cs u0 {1,S}
-5   Od u0 {2,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.4,5.37,5.93,6.18,6.5,6.62,6.72],'cal/(mol*K)','+|-',[0.1,0.1,0.1,0.1,0.1,0.1,0.1]),
-        H298 = (7.5,'kcal/mol','+|-',0.24),
-        S298 = (-14.6,'cal/(mol*K)','+|-',0.12),
-    ),
-    shortDesc = u"""Cd-COCs BENSON Hf, Cd/C/Cd =3D S,Cp""",
-    longDesc = 
-u"""
-
-""",
-)
+# Replaced by a recently calculated value.
+#entry(
+#    index = 203,
+#    label = "Cds-Cds(Cds-Od)Cs",
+#    group = 
+#"""
+#1 * Cd u0 {2,S} {3,D} {4,S}
+#2   CO u0 {1,S} {5,D}
+#3   Cd u0 {1,D}
+#4   Cs u0 {1,S}
+#5   Od u0 {2,D}
+#""",
+#    thermo = ThermoData(
+#        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#        Cpdata = ([4.4,5.37,5.93,6.18,6.5,6.62,6.72],'cal/(mol*K)','+|-',[0.1,0.1,0.1,0.1,0.1,0.1,0.1]),
+#        H298 = (7.5,'kcal/mol','+|-',0.24),
+#        S298 = (-14.6,'cal/(mol*K)','+|-',0.12),
+#    ),
+#    shortDesc = u"""Cd-COCs BENSON Hf, Cd/C/Cd =3D S,Cp""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
 
 entry(
     index = 204,
@@ -6118,25 +6121,26 @@ u"""
 """,
 )
 
-entry(
-    index = 207,
-    label = "Cds-Cds(Cds-Cdd-Od)Cs",
-    group = 
-"""
-1 * Cd  u0 {2,S} {4,D} {5,S}
-2   Cd  u0 {1,S} {3,D}
-3   Cdd u0 {2,D} {6,D}
-4   Cd  u0 {1,D}
-5   Cs  u0 {1,S}
-6   Od  u0 {3,D}
-""",
-    thermo = u'Cds-Cds(Cds-Cds)Cs',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# Replaced by a recently calculated value.
+#entry(
+#    index = 207,
+#    label = "Cds-Cds(Cds-Cdd-Od)Cs",
+#    group = 
+#"""
+#1 * Cd  u0 {2,S} {4,D} {5,S}
+#2   Cd  u0 {1,S} {3,D}
+#3   Cdd u0 {2,D} {6,D}
+#4   Cd  u0 {1,D}
+#5   Cs  u0 {1,S}
+#6   Od  u0 {3,D}
+#""",
+#    thermo = u'Cds-Cds(Cds-Cds)Cs',
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
 
 entry(
     index = -1,
@@ -10057,13 +10061,13 @@ u"""
 
 entry(
     index = 1996,
-    label = "Cd-CdCs(CO)",
+    label = "Cds-Cds(Cds-Od)Cs",
     group = 
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cd u0 {2,S} {3,D} {4,S}
 2   CO u0 {1,S} {5,D}
-3   Cs u0 {1,S}
-4   C  u0 {1,D}
+3   Cd u0 {1,D}
+4   Cs u0 {1,S}
 5   Od u0 {2,D}
 """,
     thermo = ThermoData(
@@ -10083,14 +10087,14 @@ DOI: 10.1002/chem.201301381
 
 entry(
     index = 2011,
-    label = "Cd-CdCs(CCO)",
+    label = "Cds-Cds(Cds-Cdd-Od)Cs",
     group = 
 """
-1 * Cd  u0 {2,S} {4,S} {5,D}
+1 * Cd  u0 {2,S} {4,D} {5,S}
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   Cs  u0 {1,S}
-5   C   u0 {1,D}
+4   Cd  u0 {1,D}
+5   Cs  u0 {1,S}
 6   Od  u0 {3,D}
 """,
     thermo = ThermoData(
@@ -44730,8 +44734,6 @@ L1: R
                 L5: Cds-(Cdd-Cd)C=SH
                 L5: Cds-(Cdd-Sd)C=SH
                 L5: Cds-CdsC=SH
-                L5: Cd-Cd(CO)H
-                L5: Cd-Cd(CCO)H
             L4: Cds-CdCO
                 L5: Cds-CdsCdsOs
                     L6: Cds-Cds(Cds-Od)Os
@@ -44994,8 +44996,6 @@ L1: R
                         L7: Cds-CdsC=S(Cds-Cdd-Cd)
                         L7: Cds-CdsC=S(Cds-Cdd-Sd)
                 L5: Cds-(Cdd-Sd)C=SC=S
-                L5: Cd-CdCs(CO)
-                L5: Cd-CdCs(CCO)
             L4: Cds-CNH
                 L5: Cd-CdHN3s
                 L5: Cd-CdH(N5dOdOs)
