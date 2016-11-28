@@ -870,7 +870,7 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   C  u0 {1,S} {5,S}
+2   Cs  u0 {1,S} {5,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 5   Os u0 {2,S}
@@ -947,7 +947,7 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
-2   C  u0 {1,S} {3,S}
+2   Cs  u0 {1,S} {3,S}
 3   CO u0 {2,S} {6,D}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
@@ -974,7 +974,7 @@ entry(
     group = 
 """
 1 * Cs  u1 {2,S} {5,S} {6,S}
-2   C   u0 {1,S} {3,S}
+2   Cs   u0 {1,S} {3,S}
 3   Cd  u0 {2,S} {4,D}
 4   Cdd u0 {3,D} {7,D}
 5   H   u0 {1,S}
@@ -1167,7 +1167,7 @@ entry(
 1   Cs u0 {2,S} {3,S} {4,S} {6,S}
 2   Cs u0 {1,S} {3,S} {4,S} {5,S}
 3 * Cs u1 {1,S} {2,S} {7,S}
-4   C  u0 {1,S} {2,S}
+4   Cs  u0 {1,S} {2,S}
 5   Cd u0 {2,S} {6,D}
 6   Cd u0 {1,S} {5,D}
 7   H  u0 {3,S}
@@ -1193,8 +1193,8 @@ entry(
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S} {3,S} {4,S} {5,S}
 3 * Cs u1 {1,S} {2,S} {6,S}
-4   C  u0 {1,S} {2,S}
-5   C  u0 {1,S} {2,S}
+4   Cs  u0 {1,S} {2,S}
+5   Cs  u0 {1,S} {2,S}
 6   H  u0 {3,S}
 """,
     thermo = ThermoData(
@@ -1244,7 +1244,7 @@ entry(
 1   Cs u0 {2,S} {3,S} {4,S} {6,S}
 2   Cs u0 {1,S} {3,S} {4,S} {5,S}
 3 * Cs u1 {1,S} {2,S} {7,S}
-4   C  u0 {1,S} {2,S}
+4   Cs  u0 {1,S} {2,S}
 5   C  u0 {2,S} {6,S}
 6   C  u0 {1,S} {5,S}
 7   H  u0 {3,S}
@@ -1324,7 +1324,7 @@ entry(
 1   Cs u0 {2,S} {3,S} {4,S} {6,S}
 2   Cs u0 {1,S} {3,S} {4,S} {5,S}
 3 * Cs u1 {1,S} {2,S} {8,S}
-4   C  u0 {1,S} {2,S}
+4   Cs  u0 {1,S} {2,S}
 5   C  u0 {2,S} {7,S}
 6   C  u0 {1,S} {7,S}
 7   C  u0 {5,S} {6,S}
@@ -1351,8 +1351,8 @@ entry(
 1   Cs u0 {2,S} {3,S} {5,S} {7,S}
 2   Cs u0 {1,S} {3,S} {4,S} {6,S}
 3 * Cs u1 {1,S} {2,S} {8,S}
-4   C  u0 {2,S} {5,S}
-5   C  u0 {1,S} {4,S}
+4   Cs  u0 {2,S} {5,S}
+5   Cs  u0 {1,S} {4,S}
 6   C  u0 {2,S} {7,S}
 7   C  u0 {1,S} {6,S}
 8   H  u0 {3,S}
@@ -1480,7 +1480,7 @@ entry(
 1   Cs u0 {2,S} {3,S} {4,S} {6,S}
 2   Cs u0 {1,S} {4,S} {5,S} {7,S}
 3 * Cs u1 {1,S} {5,S} {8,S}
-4   C  u0 {1,S} {2,S}
+4   Cs  u0 {1,S} {2,S}
 5   Cs u0 {2,S} {3,S}
 6   C  u0 {1,S} {7,S}
 7   C  u0 {2,S} {6,S}
@@ -1585,7 +1585,7 @@ entry(
 1   Cs u0 {3,S} {4,S} {6,S}
 2   Cs u0 {3,S} {4,S} {5,S}
 3 * Cs u1 {1,S} {2,S} {7,S}
-4   C  u0 {1,S} {2,S}
+4   Cs  u0 {1,S} {2,S}
 5   Cd u0 {2,S} {6,D}
 6   Cd u0 {1,S} {5,D}
 7   H  u0 {3,S}
@@ -1611,7 +1611,7 @@ entry(
 1   Cs u0 {3,S} {4,S} {5,S}
 2   Cs u0 {3,S} {4,S} {5,S}
 3 * Cs u1 {1,S} {2,S} {6,S}
-4   C  u0 {1,S} {2,S}
+4   Cs  u0 {1,S} {2,S}
 5   C  u0 {1,S} {2,S}
 6   H  u0 {3,S}
 """,
@@ -1715,7 +1715,7 @@ entry(
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S} {4,S} {5,S} {6,S}
 3 * Cs u1 {1,S} {6,S} {7,S}
-4   C  u0 {1,S} {2,S}
+4   Cs  u0 {1,S} {2,S}
 5   C  u0 {1,S} {2,S}
 6   Cs u0 {2,S} {3,S}
 7   H  u0 {3,S}
@@ -1741,7 +1741,7 @@ entry(
 1   Cs u0 {3,S} {4,S} {6,S}
 2   Cs u0 {3,S} {4,S} {5,S}
 3 * Cs u1 {1,S} {2,S} {7,S}
-4   C  u0 {1,S} {2,S}
+4   Cs  u0 {1,S} {2,S}
 5   C  u0 {2,S} {6,S}
 6   C  u0 {1,S} {5,S}
 7   H  u0 {3,S}
@@ -1903,10 +1903,10 @@ entry(
 1   Cs u0 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S} {4,S} {5,S}
 3 * Cs u1 {1,S} {6,S} {8,S}
-4   C  u0 {1,S} {2,S}
-5   C  u0 {2,S} {7,S}
+4   Cs  u0 {1,S} {2,S}
+5   Cs  u0 {2,S} {7,S}
 6   Cs u0 {3,S} {7,S}
-7   C  u0 {5,S} {6,S}
+7   Cs  u0 {5,S} {6,S}
 8   H  u0 {3,S}
 """,
     thermo = ThermoData(
@@ -1930,63 +1930,9 @@ entry(
 1   Cs u0 {2,S} {4,S} {5,S}
 2   Cs u0 {1,S} {4,S} {6,S}
 3 * Cs u1 {5,S} {7,S} {8,S}
-4   C  u0 {1,S} {2,S}
+4   Cs  u0 {1,S} {2,S}
 5   Cs u0 {1,S} {3,S}
-6   C  u0 {2,S} {7,S}
-7   Cs u0 {3,S} {6,S}
-8   H  u0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (97.6,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 170,
-    label = "bicyclo[4.1.0]heptane-C6-2",
-    group = 
-"""
-1   Cs u0 {2,S} {3,S} {4,S}
-2   Cs u0 {1,S} {4,S} {5,S}
-3 * Cs u1 {1,S} {6,S} {8,S}
-4   C  u0 {1,S} {2,S}
-5   C  u0 {2,S} {7,S}
-6   Cs u0 {3,S} {7,S}
-7   C  u0 {5,S} {6,S}
-8   H  u0 {3,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([-1.3,-2.36,-3.02,-3.44,-3.98,-4.36,-4.99],'cal/(mol*K)'),
-        H298 = (94.7,'kcal/mol','+|-',0.2),
-        S298 = (4.51,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Homolytic C-H and N-H bond dissociation energies of strained organic compounds Feng et al. 2004S, Cp copied from CCJC entry""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 171,
-    label = "bicyclo[4.1.0]heptane-C6-3",
-    group = 
-"""
-1   Cs u0 {2,S} {4,S} {5,S}
-2   Cs u0 {1,S} {4,S} {6,S}
-3 * Cs u1 {5,S} {7,S} {8,S}
-4   C  u0 {1,S} {2,S}
-5   Cs u0 {1,S} {3,S}
-6   C  u0 {2,S} {7,S}
+6   Cs  u0 {2,S} {7,S}
 7   Cs u0 {3,S} {6,S}
 8   H  u0 {3,S}
 """,
@@ -2038,9 +1984,9 @@ entry(
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S} {4,S} {5,S} {6,S}
 3 * Cs u1 {1,S} {7,S} {8,S}
-4   C  u0 {1,S} {2,S}
+4   Cs  u0 {1,S} {2,S}
 5   C  u0 {1,S} {2,S}
-6   C  u0 {2,S} {7,S}
+6   Cs  u0 {2,S} {7,S}
 7   Cs u0 {3,S} {6,S}
 8   H  u0 {3,S}
 """,
@@ -2119,7 +2065,7 @@ entry(
 1   Cs u0 {3,S} {4,S} {6,S}
 2   Cs u0 {3,S} {4,S} {5,S}
 3 * Cs u1 {1,S} {2,S} {8,S}
-4   C  u0 {1,S} {2,S}
+4   Cs  u0 {1,S} {2,S}
 5   C  u0 {2,S} {7,S}
 6   C  u0 {1,S} {7,S}
 7   C  u0 {5,S} {6,S}
@@ -2287,9 +2233,9 @@ entry(
 2   Cs u0 {1,S} {4,S} {7,S} {8,S}
 3 * Cs u1 {1,S} {4,S} {9,S}
 4   Cs u0 {2,S} {3,S}
-5   C  u0 {1,S} {7,S}
+5   Cs  u0 {1,S} {7,S}
 6   C  u0 {1,S} {8,S}
-7   C  u0 {2,S} {5,S}
+7   Cs  u0 {2,S} {5,S}
 8   C  u0 {2,S} {6,S}
 9   H  u0 {3,S}
 """,
@@ -2755,8 +2701,8 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   C  u0 {1,S} {5,S}
-3   C  u0 {1,S}
+2   Cs  u0 {1,S} {5,S}
+3   Cs  u0 {1,S}
 4   H  u0 {1,S}
 5   Os u0 {2,S}
 """,
@@ -2781,7 +2727,7 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   C  u0 {1,S} {5,S}
+2   Cs  u0 {1,S} {5,S}
 3   Cd u0 {1,S} {6,D}
 4   H  u0 {1,S}
 5   Os u0 {2,S}
@@ -2886,9 +2832,9 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {4,S} {5,S}
-2   C  u0 {1,S} {3,S}
+2   Cs  u0 {1,S} {3,S}
 3   CO u0 {2,S} {6,D}
-4   C  u0 {1,S}
+4   Cs  u0 {1,S}
 5   H  u0 {1,S}
 6   Od u0 {3,D}
 """,
@@ -2914,7 +2860,7 @@ entry(
 """
 1 * Cs  u1 {2,S} {3,S} {5,S}
 2   Cd  u0 {1,S} {4,D}
-3   C   u0 {1,S} {6,S}
+3   Cs   u0 {1,S} {6,S}
 4   Cdd u0 {2,D} {7,D}
 5   H   u0 {1,S}
 6   C   u0 {3,S}
@@ -3526,9 +3472,9 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   C  u0 {1,S} {5,S}
-3   C  u0 {1,S}
-4   C  u0 {1,S}
+2   Cs  u0 {1,S} {5,S}
+3   Cs  u0 {1,S}
+4   Cs  u0 {1,S}
 5   Os u0 {2,S}
 """,
     thermo = ThermoData(
@@ -3609,8 +3555,8 @@ entry(
 1 * Cs  u1 {2,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   C   u0 {1,S}
-5   C   u0 {1,S}
+4   Cs   u0 {1,S}
+5   Cs   u0 {1,S}
 6   Od  u0 {3,D}
 """,
     thermo = ThermoData(
@@ -4270,7 +4216,7 @@ entry(
 3   Os u0 {1,S} {6,S}
 4   H  u0 {1,S}
 5   C  u0 {2,D}
-6   C  u0 {3,S}
+6   Cs  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4368,9 +4314,10 @@ entry(
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S} {5,D}
-3   Os u0 {1,S}
+3   Os u0 {1,S} {6,S}
 4   H  u0 {1,S}
 5   C  u0 {2,D}
+6   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4394,9 +4341,10 @@ entry(
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   CO u0 {1,S} {5,D}
-3   Os u0 {1,S}
+3   Os u0 {1,S} {6,S}
 4   H  u0 {1,S}
 5   Od u0 {2,D}
+6   H  u0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5603,7 +5551,7 @@ entry(
     group = 
 """
 1 * CO u1 {2,S} {4,D}
-2   C  u0 {1,S} {3,S}
+2   Cs  u0 {1,S} {3,S}
 3   C  u0 {2,S}
 4   Od u0 {1,D}
 """,
@@ -5627,7 +5575,7 @@ entry(
     label = "C=OCCJ=O",
     group = 
 """
-1   C  u0 {2,S} {3,S}
+1   Cs  u0 {2,S} {3,S}
 2 * CO u1 {1,S} {4,D}
 3   CO u0 {1,S} {5,D}
 4   Od u0 {2,D}
@@ -5683,7 +5631,7 @@ entry(
 1   Cd u0 {2,S} {3,S} {4,D}
 2 * CO u1 {1,S} {5,D}
 3   C  u0 {1,S}
-4   C  u0 {1,D}
+4   Cd  u0 {1,D}
 5   Od u0 {2,D}
 """,
     thermo = ThermoData(
@@ -6256,7 +6204,7 @@ entry(
 """
 1 * Cd u1 {2,S} {3,D}
 2   CO u0 {1,S} {4,D}
-3   C  u0 {1,D}
+3   Cd  u0 {1,D}
 4   Od u0 {2,D}
 """,
     thermo = ThermoData(
@@ -7039,7 +6987,7 @@ entry(
     label = "CCOJ",
     group = 
 """
-1   C  u0 {2,S} {3,S}
+1   Cs  u0 {2,S} {3,S}
 2 * Os u1 {1,S}
 3   C  u0 {1,S}
 """,
@@ -7063,7 +7011,7 @@ entry(
     label = "C=OCOJ",
     group = 
 """
-1   C  u0 {2,S} {3,S}
+1   Cs  u0 {2,S} {3,S}
 2   CO u0 {1,S} {4,D}
 3 * Os u1 {1,S}
 4   Od u0 {2,D}
@@ -7088,7 +7036,7 @@ entry(
     label = "OCOJ",
     group = 
 """
-1   C  u0 {2,S} {3,S}
+1   Cs  u0 {2,S} {3,S}
 2 * Os u1 {1,S}
 3   Os u0 {1,S}
 """,
@@ -8165,8 +8113,6 @@ L1: Radical
                     L6: CsCsJ
                         L7: CJCOOH
                         L7: CCJ
-                        L7: RCCJ
-                        L7: Isobutyl
                         L7: Neopentyl
                             L8: CJC(C)2C=O
                                 L9: CJC(C=O)2C
@@ -8181,6 +8127,11 @@ L1: Radical
                             L8: C=CC(O)2CJ
                         L7: CJC(C)C=O
                         L7: CJC(C)C=C=O
+                        L7: Isobutyl
+                        L7: CJCO
+                        L7: CJCC=O
+                        L7: CJCC=C=O
+                        L7: RCCJ
                     L6: Benzyl_P
                     L6: Allyl_P
                         L7: C=CC=CCJ
@@ -8190,66 +8141,63 @@ L1: Radical
                         L7: CJC=C=O
                         L7: C=C(CJ)C=C=O
                     L6: Propargyl
-                    L6: CJCO
                     L6: CJC=O
                         L7: C2JC=O
-                    L6: CJCC=O
-                    L6: CJCC=C=O
                 L5: Cs_S
                     L6: (Cs)2CsJ
                         L7: cyclopropane
                             L8: bicyclo[1.1.0]butane-secondary
+                                L9: tricyclo[1.1.1.0(1,3)]pentane-C2
+                                L9: tricyclo[2.1.1.0(1,4)]hex-2-ene-C5
+                                L9: tricyclo[2.1.1.0(1,4)]hexane-C5
+                                L9: tricyclo[3.1.1.0(1,5)]heptane-C6
                             L8: spiro[2.2]pentane-secondary
                             L8: bicyclo[2.1.0]pentane-secondary-C3
+                                L9: tricyclo[2.2.1.0(1,4)]heptane-C7
                             L8: bicyclo[2.1.0]pent-2-ene-C5
-                                L9: tricyclo[2.1.1.0(1,4)]hex-2-ene-C5
-                            L8: tricyclo[1.1.1.0(1,3)]pentane-C2
                             L8: bicyclo[3.1.0]hexane-C3
-                            L8: tricyclo[2.1.1.0(1,4)]hexane-C5
                             L8: bicyclo[4.1.0]heptane-C3-7
                             L8: bicyclo[4.1.0]heptane-C3-7
-                            L8: tricyclo[3.1.1.0(1,5)]heptane-C6
-                            L8: tricyclo[2.2.1.0(1,4)]heptane-C7
                         L7: cyclobutane
                             L8: bicyclo[2.1.0]pentane-secondary-C4
+                                L9: tricyclo[2.2.1.0(1,4)]heptane-C2
+                                L9: tricyclo[2.1.1.0(1,4)]hexane-C2
                             L8: bicyclo[2.2.0]hexane-secondary
+                                L9: tricyclo[2.2.2.0(1,4)]octane-C2
                             L8: bicyclo[3.2.0]heptane-C5-6
-                            L8: tricyclo[2.2.1.0(1,4)]heptane-C2
                             L8: bicyclo[4.2.0]octane-C4-7
+                            L8: bicyclo[2.1.1]hex-2-ene-C5
+                            L8: bicyclo[1.1.1]pentane-C2
+                            L8: bicyclo[2.1.1]hexane-C5
+                            L8: bicyclo[3.1.1]heptane-C6
                         L7: CCJCOOH
                         L7: cyclopentene-4
-                            L8: bicyclo[2.1.1]hex-2-ene-C5
-                        L7: bicyclo[1.1.1]pentane-C2
                         L7: bicyclo[3.1.0]hexane-C5-2
+                            L8: tricyclo[3.1.1.0(1,5)]heptane-C2
                         L7: bicyclo[3.1.0]hexane-C5-3
                         L7: bicyclo[2.1.1]hexane-C2
-                            L8: tricyclo[2.1.1.0(1,4)]hexane-C2
-                        L7: bicyclo[2.1.1]hexane-C5
                         L7: 7-norbornyl
                         L7: 2-norbornyl
                         L7: cycloheptane
                             L8: bicyclo[3.2.0]heptane-C5-2
                             L8: bicyclo[3.2.0]heptane-C5-3
-                        L7: bicyclo[4.1.0]heptane-C6-2
-                        L7: bicyclo[4.1.0]heptane-C6-3
-                        L7: bicyclo[4.1.0]heptane-C6-2
-                        L7: bicyclo[4.1.0]heptane-C6-3
+                            L8: bicyclo[4.1.0]heptane-C6-3
+                            L8: bicyclo[4.1.0]heptane-C6-2
                         L7: bicyclo[3.1.1]heptane-C2
-                            L8: tricyclo[3.1.1.0(1,5)]heptane-C2
                         L7: bicyclo[3.1.1]heptane-C3
                             L8: tricyclo[3.1.1.0(1,5)]heptane-C3
-                        L7: bicyclo[3.1.1]heptane-C6
                         L7: octahydro-pentalene-C5-2
                         L7: octahydro-pentalene-C5-3
                         L7: bicyclo[4.2.0]octane-C6-2
                         L7: bicyclo[4.2.0]octane-C6-3
                         L7: bicyclo[2.2.2]octane-C2
-                            L8: tricyclo[2.2.2.0(1,4)]octane-C2
                         L7: CCJC
+                        L7: CCJCC=O
                         L7: RCCJC
                         L7: RCCJCC
                             L8: cyclopentane
                             L8: cyclohexane
+                        L7: CCJCO
                     L6: Benzyl_S
                         L7: Indenyl
                     L6: Allyl_S
@@ -8257,18 +8205,16 @@ L1: Radical
                         L7: cyclopentene-allyl
                         L7: cyclohexene-allyl
                         L7: C=CCJC(O)C=C
+                        L7: C=CCJCO
+                        L7: CCJC(C)=C=O
                     L6: C=CCJC=C
                         L7: cyclopropenyl-allyl
                         L7: 1,3-cyclopentadiene-allyl
                         L7: C=CCJC=C=O
                     L6: Sec_Propargyl
-                    L6: CCJCO
-                        L7: C=CCJCO
                     L6: CCJC=O
                         L7: CCJCHO
                         L7: C=OCJC=O
-                    L6: CCJCC=O
-                    L6: CCJC(C)=C=O
                 L5: Cs_T
                     L6: Tertalkyl
                         L7: bicyclo[1.1.0]butane-tertiary
@@ -8285,20 +8231,20 @@ L1: Radical
                         L7: octahydro-pentalene-tertiary
                         L7: bicyclo[4.2.0]octane-tertiary
                         L7: bicyclo[2.2.2]octane-C1
+                        L7: CCJ(C)CO
                     L6: Benzyl_T
                     L6: Allyl_T
                         L7: bicyclo[2.1.0]pent-2-ene-C1
                         L7: bicyclo[2.1.1]hex-2-ene-C1
+                        L7: CCJ(C)C=C=O
                     L6: Tert_Propargyl
                     L6: C2CJCO
                         L7: C2CJCHO
                     L6: bicyclo[2.2.0]hexa-2,5-diene-C1
-                    L6: CCJ(C)CO
                     L6: C=CCJ(C)C=O
                         L7: C=CCJ(C=O)C=C
-                    L6: CCJ(C)C=C=O
-                        L7: C=CCJ(C)C=C=O
-                            L8: C=CCJ(C=C=O)C=C
+                    L6: C=CCJ(C)C=C=O
+                        L7: C=CCJ(C=C=O)C=C
                 L5: CsJO
                     L6: CsJOH
                     L6: CsJOC
@@ -8317,18 +8263,18 @@ L1: Radical
                         L7: CsJOOC
                 L5: CCsJO
                     L6: CCsJOH
+                        L7: C=CCJO
+                        L7: OCJC=O
                     L6: CCsJOC
                         L7: CCsJOCs
+                            L8: C=CCJ(O)C
                         L7: CCsJOCds
                             L8: CCsJOC(O)
                                 L9: CCsJOC(O)H
                                 L9: CCsJOC(O)C
-                        L7: C=CCJ(O)C
                     L6: CCsJOO
                         L7: CCsJOOH
                         L7: CCsJOOC
-                    L6: C=CCJO
-                    L6: OCJC=O
                 L5: C2CsJO
                     L6: C2CsJOH
                     L6: C2CsJOC
@@ -8381,12 +8327,12 @@ L1: Radical
                                     L10: C=CC(C)2CJ=O
                                 L9: CC(C)(O)CJ=O
                                     L10: C=CC(C)(O)CJ=O
+                            L8: CCCJ=O
+                                L9: C=OCCJ=O
                         L7: C=CCJ=O
-                        L7: CCCJ=O
-                            L8: C=OCCJ=O
-                                L9: C=OC=OCJ=O
                             L8: C=C(C)CJ=O
                         L7: OC=OCJ=O
+                        L7: C=OC=OCJ=O
                     L6: (O)CJO
                         L7: (O)CJOH
                         L7: (O)CJOC
@@ -8401,6 +8347,7 @@ L1: Radical
                         L7: cyclobutadiene-C1
                             L8: bicyclo[2.2.0]hexa-1(4),2,5-triene-C2
                         L7: 1,3-cyclopentadiene-vinyl-2
+                        L7: C=CJC=O
                     L6: cyclopropenyl-vinyl
                     L6: cyclobutene-vinyl
                         L7: bicyclo[2.1.0]pent-2-ene-C2
@@ -8409,7 +8356,6 @@ L1: Radical
                     L6: cyclopentene-vinyl
                         L7: bicyclo[2.1.1]hex-2-ene-C2
                     L6: 1,3-cyclopentadiene-vinyl-1
-                    L6: C=CJC=O
                     L6: CCCJ=C=O
                         L7: CC(C)CJ=C=O
                         L7: C=C(C)CJ=C=O
@@ -8436,6 +8382,9 @@ L1: Radical
                             L8: CC(C)(C=O)OJ
                         L7: CC(C)(O)OJ
                             L8: C=CC(C)(O)OJ
+                    L6: CCOJ
+                        L7: C=OCOJ
+                    L6: OCOJ
                 L5: CdsOJ
                     L6: RC=COJ
                         L7: C=COJ
@@ -8444,9 +8393,6 @@ L1: Radical
                         L7: OC=OOJ
                         L7: C=OC=OOJ
                 L5: CbOJ
-                L5: CCOJ
-                    L6: C=OCOJ
-                L5: OCOJ
             L4: OOJ
                 L5: ROOJ
                     L6: C(=O)OOJ
