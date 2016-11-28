@@ -13544,27 +13544,28 @@ u"""
 """,
 )
 
-entry(
-    index = 364,
-    label = "Cs-(Cds-Cdd-Od)(Cds-Cds)HH",
-    group = 
-"""
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cdd u0 {2,D} {8,D}
-5   H   u0 {1,S}
-6   H   u0 {1,S}
-7   Cd  u0 {3,D}
-8   Od  u0 {4,D}
-""",
-    thermo = u'Cs-(Cds-Cdd-Od)CsHH',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# Replaced by a recently calculated value.
+#entry(
+#    index = 364,
+#    label = "Cs-(Cds-Cdd-Od)(Cds-Cds)HH",
+#    group = 
+#"""
+#1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
+#2   Cd  u0 {1,S} {4,D}
+#3   Cd  u0 {1,S} {7,D}
+#4   Cdd u0 {2,D} {8,D}
+#5   H   u0 {1,S}
+#6   H   u0 {1,S}
+#7   Cd  u0 {3,D}
+#8   Od  u0 {4,D}
+#""",
+#    thermo = u'Cs-(Cds-Cdd-Od)CsHH',
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
 
 entry(
     index = -1,
@@ -13753,7 +13754,7 @@ u"""
 
 entry(
     index = 2010,
-    label = "Cs-Cd(CCO)HH",
+    label = "Cs-(Cds-Cdd-Od)(Cds-Cds)HH",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
@@ -13762,7 +13763,7 @@ entry(
 4   Cdd u0 {2,D} {8,D}
 5   H   u0 {1,S}
 6   H   u0 {1,S}
-7   C   u0 {3,D}
+7   Cd  u0 {3,D}
 8   Od  u0 {4,D}
 """,
     thermo = ThermoData(
@@ -15012,27 +15013,28 @@ u"""
 """,
 )
 
-entry(
-    index = 410,
-    label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CsH",
-    group = 
-"""
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
-6   H   u0 {1,S}
-7   Cd  u0 {3,D}
-8   Od  u0 {4,D}
-""",
-    thermo = u'Cs-(Cds-Cdd-Od)CsCsH',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# Replaced by a recently calculated value.
+#entry(
+#    index = 410,
+#    label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CsH",
+#    group = 
+#"""
+#1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
+#2   Cd  u0 {1,S} {4,D}
+#3   Cd  u0 {1,S} {7,D}
+#4   Cdd u0 {2,D} {8,D}
+#5   Cs  u0 {1,S}
+#6   H   u0 {1,S}
+#7   Cd  u0 {3,D}
+#8   Od  u0 {4,D}
+#""",
+#    thermo = u'Cs-(Cds-Cdd-Od)CsCsH',
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
 
 entry(
     index = -1,
@@ -15223,7 +15225,7 @@ u"""
 
 entry(
     index = 2008,
-    label = "Cs-CsCd(CCO)H",
+    label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CsH",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
@@ -15232,7 +15234,7 @@ entry(
 4   Cdd u0 {2,D} {8,D}
 5   Cs  u0 {1,S}
 6   H   u0 {1,S}
-7   C   u0 {3,D}
+7   Cd  u0 {3,D}
 8   Od  u0 {4,D}
 """,
     thermo = ThermoData(
@@ -16072,28 +16074,29 @@ u"""
 """,
 )
 
-entry(
-    index = 452,
-    label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H",
-    group = 
-"""
-1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
-2   Cd  u0 {1,S} {5,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cd  u0 {1,S} {8,D}
-5   Cdd u0 {2,D} {9,D}
-6   H   u0 {1,S}
-7   Cd  u0 {3,D}
-8   Cd  u0 {4,D}
-9   Od  u0 {5,D}
-""",
-    thermo = u'Cs-(Cds-Cdd-Od)CsCsH',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# Replaced by a recently calculated value.
+#entry(
+#    index = 452,
+#    label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H",
+#    group = 
+#"""
+#1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
+#2   Cd  u0 {1,S} {5,D}
+#3   Cd  u0 {1,S} {7,D}
+#4   Cd  u0 {1,S} {8,D}
+#5   Cdd u0 {2,D} {9,D}
+#6   H   u0 {1,S}
+#7   Cd  u0 {3,D}
+#8   Cd  u0 {4,D}
+#9   Od  u0 {5,D}
+#""",
+#    thermo = u'Cs-(Cds-Cdd-Od)CsCsH',
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
 
 entry(
     index = -1,
@@ -16482,7 +16485,7 @@ u"""
 
 entry(
     index = 2009,
-    label = "Cs-CdCd(CCO)H",
+    label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
@@ -16491,8 +16494,8 @@ entry(
 4   Cd  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
 6   H   u0 {1,S}
-7   C   u0 {3,D}
-8   C   u0 {4,D}
+7   Cd  u0 {3,D}
+8   Cd  u0 {4,D}
 9   Od  u0 {5,D}
 """,
     thermo = ThermoData(
@@ -19302,27 +19305,28 @@ u"""
 """,
 )
 
-entry(
-    index = 540,
-    label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CsCs",
-    group = 
-"""
-1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
-2   Cd  u0 {1,S} {4,D}
-3   Cd  u0 {1,S} {7,D}
-4   Cdd u0 {2,D} {8,D}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
-7   Cd  u0 {3,D}
-8   Od  u0 {4,D}
-""",
-    thermo = u'Cs-(Cds-Cdd-Od)CsCsCs',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
+# Replaced by a recently calculated value.
+#entry(
+#    index = 540,
+#    label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CsCs",
+#    group = 
+#"""
+#1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
+#2   Cd  u0 {1,S} {4,D}
+#3   Cd  u0 {1,S} {7,D}
+#4   Cdd u0 {2,D} {8,D}
+#5   Cs  u0 {1,S}
+#6   Cs  u0 {1,S}
+#7   Cd  u0 {3,D}
+#8   Od  u0 {4,D}
+#""",
+#    thermo = u'Cs-(Cds-Cdd-Od)CsCsCs',
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
 
 entry(
     index = -1,
@@ -19511,7 +19515,7 @@ u"""
 
 entry(
     index = 2007,
-    label = "Cs-CsCsCd(CCO)",
+    label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CsCs",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
@@ -19520,7 +19524,7 @@ entry(
 4   Cdd u0 {2,D} {8,D}
 5   Cs  u0 {1,S}
 6   Cs  u0 {1,S}
-7   C   u0 {3,D}
+7   Cd  u0 {3,D}
 8   Od  u0 {4,D}
 """,
     thermo = ThermoData(
@@ -45160,7 +45164,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)HH
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)HH
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)HH
-                        L7: Cs-Cd(CCO)HH
                 L5: Cs-CtCsHH
                     L6: Cs-(CtN3t)CsHH
                 L5: Cs-CtCdsHH
@@ -45225,7 +45228,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)CsH
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)CsH
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsH
-                        L7: Cs-CsCd(CCO)H
                 L5: Cs-CtCdsCsH
                     L6: Cs-(Cds-Od)CtCsH
                     L6: Cs-(Cds-Cd)CtCsH
@@ -45280,7 +45282,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)(Cds-Cdd-Cd)H
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H
-                        L7: Cs-CdCd(CCO)H
                 L5: Cs-CtCdsCdsH
                     L6: Cs-(Cds-Od)(Cds-Od)CtH
                     L6: Cs-(Cds-Od)(Cds-Cd)CtH
@@ -45418,7 +45419,6 @@ L1: R
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)CsCs
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)CsCs
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsCs
-                        L7: Cs-CsCsCd(CCO)
                 L5: Cs-CtCdsCsCs
                     L6: Cs-(Cds-Od)CtCsCs
                     L6: Cs-(Cds-Cd)CtCsCs
