@@ -12129,11 +12129,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N3d u0 {1,S} {6,S}
+2   N3d u0 {1,S} {6,D}
 3   Cs  u0 {1,S}
 4   Cs  u0 {1,S}
 5   H   u0 {1,S}
-6   N3d u0 {2,S}
+6   N3d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -12301,11 +12301,11 @@ entry(
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-2   N3d u0 {1,S} {6,S}
+2   N3d u0 {1,S} {6,D}
 3   Cs  u0 {1,S}
 4   Cs  u0 {1,S}
 5   Cs  u0 {1,S}
-6   N3d u0 {2,S}
+6   N3d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
