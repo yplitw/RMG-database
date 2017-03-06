@@ -765,7 +765,7 @@ Taken from entry: prod_22 <=> CPD + H
 entry(
     index = 46,
     label = "C2H2 + C3H3 <=> C5H5-2",
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.27e+06, 'cm^3/(mol*s)'),
         n = 2.15,
