@@ -124,8 +124,8 @@ entry(
     label = "CH2(S)",
     molecule = 
 """
-multiplicity 3
-1 C u2 p0 c0 {2,S} {3,S}
+multiplicity 1
+1 C u0 p1 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
 3 H u0 p0 c0 {1,S}
 """,
@@ -3311,8 +3311,6 @@ multiplicity 3
     longDesc = 
 u"""
 120186.
-Duplicate of species CH2(S) (i.e. same molecular structure according to RMG)
-[CH2]
 Imported from therm.dat.
 """,
 )
@@ -5578,41 +5576,6 @@ u"""
 7/19/ 0 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CC(C)COO
-Imported from therm.dat.
-""",
-)
-
-entry(
-    index = 145,
-    label = "AC3H5CO",
-    molecule = 
-"""
-multiplicity 2
-1  O u0 p2 c0 {2,D}
-2  C u1 p0 c0 {1,D} {5,S}
-3  C u0 p0 c0 {4,D} {6,S} {7,S}
-4  C u0 p0 c0 {3,D} {5,S} {10,S}
-5  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
-6  H u0 p0 c0 {3,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {5,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {4,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[0.9343,0.0377752,-2.61385e-05,9.34041e-09,-1.37598e-12,7742.24,25.6636], Tmin=(298,'K'), Tmax=(1389,'K')),
-            NASAPolynomial(coeffs=[11.8647,0.0128853,-4.45461e-06,6.96613e-10,-4.06215e-14,3863.44,-33.299], Tmin=(1389,'K'), Tmax=(5000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (5000,'K'),
-    ),
-    shortDesc = u"""2/29/96 THERM""",
-    longDesc = 
-u"""
-2/29/96 THERM
-Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
-C=CC[C]=O
 Imported from therm.dat.
 """,
 )
@@ -10587,51 +10550,6 @@ Imported from therm.dat.
 )
 
 entry(
-    index = 282,
-    label = "C6H11OOH1-4",
-    molecule = 
-"""
-1  O u0 p2 c0 {2,S} {9,S}
-2  O u0 p2 c0 {1,S} {8,S}
-3  C u0 p0 c0 {4,D} {10,S} {11,S}
-4  C u0 p0 c0 {3,D} {6,S} {12,S}
-5  C u0 p0 c0 {7,S} {13,S} {14,S} {15,S}
-6  C u0 p0 c0 {4,S} {8,S} {16,S} {17,S}
-7  C u0 p0 c0 {5,S} {8,S} {18,S} {19,S}
-8  C u0 p0 c0 {2,S} {6,S} {7,S} {20,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {4,S}
-13 H u0 p0 c0 {5,S}
-14 H u0 p0 c0 {5,S}
-15 H u0 p0 c0 {5,S}
-16 H u0 p0 c0 {6,S}
-17 H u0 p0 c0 {6,S}
-18 H u0 p0 c0 {7,S}
-19 H u0 p0 c0 {7,S}
-20 H u0 p0 c0 {8,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[0.608693,0.0812533,-5.99544e-05,2.32307e-08,-3.71302e-12,-20730.7,30.4601], Tmin=(298,'K'), Tmax=(1397,'K')),
-            NASAPolynomial(coeffs=[23.3879,0.0266183,-9.13554e-06,1.42154e-09,-8.26043e-14,-28521.1,-91.4098], Tmin=(1397,'K'), Tmax=(5000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (5000,'K'),
-    ),
-    shortDesc = u"""3/27/97 THRM""",
-    longDesc = 
-u"""
-3/27/97 THRM
-Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
-Duplicate of species C6H111O2H-4 (i.e. same molecular structure according to RMG)
-C=CCC(CC)OO
-Imported from therm.dat.
-""",
-)
-
-entry(
     index = 283,
     label = "C6H112-4",
     molecule = 
@@ -12106,43 +12024,6 @@ u"""
 6/24/99 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH2]CCCCC=C
-Imported from therm.dat.
-""",
-)
-
-entry(
-    index = 320,
-    label = "C5H81-3",
-    molecule = 
-"""
-1  C u0 p0 c0 {3,D} {6,S} {7,S}
-2  C u0 p0 c0 {5,S} {11,S} {12,S} {13,S}
-3  C u0 p0 c0 {1,D} {4,S} {8,S}
-4  C u0 p0 c0 {3,S} {5,D} {10,S}
-5  C u0 p0 c0 {2,S} {4,D} {9,S}
-6  H u0 p0 c0 {1,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {3,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {2,S}
-12 H u0 p0 c0 {2,S}
-13 H u0 p0 c0 {2,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[-2.32617,0.0638696,-5.57053e-05,2.58049e-08,-4.83406e-12,6551.83,34.2037], Tmin=(298,'K'), Tmax=(1396,'K')),
-            NASAPolynomial(coeffs=[14.5574,0.0180939,-6.21672e-06,9.6792e-10,-5.62629e-14,1223.65,-54.389], Tmin=(1396,'K'), Tmax=(5000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (5000,'K'),
-    ),
-    shortDesc = u"""3/27/97 THERM""",
-    longDesc = 
-u"""
-3/27/97 THERM
-Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
-C=CC=CC
 Imported from therm.dat.
 """,
 )
@@ -15473,51 +15354,6 @@ Imported from therm.dat.
 )
 
 entry(
-    index = 399,
-    label = "C6H11OOH1-5",
-    molecule = 
-"""
-1  O u0 p2 c0 {2,S} {9,S}
-2  O u0 p2 c0 {1,S} {7,S}
-3  C u0 p0 c0 {4,D} {10,S} {11,S}
-4  C u0 p0 c0 {3,D} {6,S} {15,S}
-5  C u0 p0 c0 {7,S} {12,S} {13,S} {14,S}
-6  C u0 p0 c0 {4,S} {8,S} {16,S} {17,S}
-7  C u0 p0 c0 {2,S} {5,S} {8,S} {20,S}
-8  C u0 p0 c0 {6,S} {7,S} {18,S} {19,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {5,S}
-14 H u0 p0 c0 {5,S}
-15 H u0 p0 c0 {4,S}
-16 H u0 p0 c0 {6,S}
-17 H u0 p0 c0 {6,S}
-18 H u0 p0 c0 {8,S}
-19 H u0 p0 c0 {8,S}
-20 H u0 p0 c0 {7,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[0.608693,0.0812533,-5.99544e-05,2.32307e-08,-3.71302e-12,-20730.7,30.4601], Tmin=(298,'K'), Tmax=(1397,'K')),
-            NASAPolynomial(coeffs=[23.3879,0.0266183,-9.13554e-06,1.42154e-09,-8.26043e-14,-28521.1,-91.4098], Tmin=(1397,'K'), Tmax=(5000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (5000,'K'),
-    ),
-    shortDesc = u"""3/27/97 THRM""",
-    longDesc = 
-u"""
-3/27/97 THRM
-Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
-Duplicate of species C6H111O2H-5 (i.e. same molecular structure according to RMG)
-C=CCCC(C)OO
-Imported from therm.dat.
-""",
-)
-
-entry(
     index = 400,
     label = "NC6D1KET54",
     molecule = 
@@ -18161,43 +17997,6 @@ u"""
 7/19/ 0 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH2]C(C)COO
-Imported from therm.dat.
-""",
-)
-
-entry(
-    index = 462,
-    label = "C3KET21",
-    molecule = 
-"""
-1  O u0 p2 c0 {3,S} {7,S}
-2  O u0 p2 c0 {6,D}
-3  O u0 p2 c0 {1,S} {5,S}
-4  C u0 p0 c0 {6,S} {8,S} {9,S} {10,S}
-5  C u0 p0 c0 {3,S} {6,S} {11,S} {12,S}
-6  C u0 p0 c0 {2,D} {4,S} {5,S}
-7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {4,S}
-10 H u0 p0 c0 {4,S}
-11 H u0 p0 c0 {5,S}
-12 H u0 p0 c0 {5,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[4.55686,0.0357077,-1.94712e-05,4.70695e-09,-3.69754e-13,-38671.1,9.97762], Tmin=(298,'K'), Tmax=(1371,'K')),
-            NASAPolynomial(coeffs=[15.6378,0.0144059,-5.08808e-06,8.07076e-10,-4.75296e-14,-43065.8,-51.3106], Tmin=(1371,'K'), Tmax=(5000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (5000,'K'),
-    ),
-    shortDesc = u"""7/19/ 0 THERM""",
-    longDesc = 
-u"""
-7/19/ 0 THERM
-Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
-Duplicate of species CH3COCH2O2H (i.e. same molecular structure according to RMG)
-CC(=O)COO
 Imported from therm.dat.
 """,
 )
@@ -24806,8 +24605,7 @@ entry(
 u"""
 3/ 1/95 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
-Duplicate of species C5H81-3 (i.e. same molecular structure according to RMG)
-C=CC=CC
+
 Imported from therm.dat.
 """,
 )
@@ -25633,8 +25431,6 @@ multiplicity 2
 u"""
 5/10/94 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
-Duplicate of species AC3H5CO (i.e. same molecular structure according to RMG)
-C=CC[C]=O
 Imported from therm.dat.
 """,
 )
@@ -25645,18 +25441,18 @@ entry(
     molecule = 
 """
 multiplicity 2
-1  C u1 p0 c0 {3,S} {6,S} {7,S}
-2  C u0 p0 c0 {5,D} {8,S} {9,S}
-3  C u0 p0 c0 {1,S} {4,D} {10,S}
-4  C u0 p0 c0 {3,D} {5,S} {12,S}
-5  C u0 p0 c0 {2,D} {4,S} {11,S}
-6  H u0 p0 c0 {1,S}
+1  C u0 p0 c0 {2,D} {7,S} {8,S}
+2  C u0 p0 c0 {1,D} {3,S} {9,S}
+3  C u1 p0 c0 {2,S} {4,S} {5,S}
+4  H u0 p0 c0 {3,S}
+5  C u0 p0 c0 {3,S} {6,D} {10,S}
+6  C u0 p0 c0 {5,D} {11,S} {12,S}
 7  H u0 p0 c0 {1,S}
-8  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {1,S}
 9  H u0 p0 c0 {2,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {5,S}
-12 H u0 p0 c0 {4,S}
+10 H u0 p0 c0 {5,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {6,S}
 """,
     thermo = NASA(
         polynomials = [
@@ -25671,8 +25467,6 @@ multiplicity 2
 u"""
 3/ 1/95
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
-Duplicate of species CXCCXCCJ (i.e. same molecular structure according to RMG)
-[CH2]C=CC=C
 Imported from therm.dat.
 """,
 )
@@ -27032,39 +26826,6 @@ multiplicity 2
 u"""
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C=CC(CC(C)OO)O[O]
-Imported from therm.dat.
-""",
-)
-
-entry(
-    index = 665,
-    label = "CHCHCHO",
-    molecule = 
-"""
-multiplicity 2
-1 O u0 p2 c0 {4,D}
-2 C u1 p0 c0 {3,D} {5,S}
-3 C u0 p0 c0 {2,D} {4,S} {7,S}
-4 C u0 p0 c0 {1,D} {3,S} {6,S}
-5 H u0 p0 c0 {2,S}
-6 H u0 p0 c0 {4,S}
-7 H u0 p0 c0 {3,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[1.20905,0.0319125,-2.93444e-05,1.38077e-08,-2.58328e-12,17971.2,19.399], Tmin=(298,'K'), Tmax=(1394,'K')),
-            NASAPolynomial(coeffs=[10.2666,0.00709613,-2.47273e-06,3.8874e-10,-2.27523e-14,15165.4,-27.9927], Tmin=(1394,'K'), Tmax=(5000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (5000,'K'),
-    ),
-    shortDesc = u"""5/14/ 3""",
-    longDesc = 
-u"""
-5/14/ 3
-Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
-Duplicate of species CJXCCXO (i.e. same molecular structure according to RMG)
-[CH]=CC=O
 Imported from therm.dat.
 """,
 )
@@ -52845,45 +52606,6 @@ u"""
 6/26/95 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CCC(CO)O[O]
-Imported from therm.dat.
-""",
-)
-
-entry(
-    index = 1241,
-    label = "C4H7CO1-1",
-    molecule = 
-"""
-multiplicity 2
-1  O u0 p2 c0 {2,D}
-2  C u1 p0 c0 {1,D} {3,S}
-3  C u0 p0 c0 {2,S} {4,D} {7,S}
-4  C u0 p0 c0 {3,D} {6,S} {8,S}
-5  C u0 p0 c0 {6,S} {9,S} {10,S} {11,S}
-6  C u0 p0 c0 {4,S} {5,S} {12,S} {13,S}
-7  H u0 p0 c0 {3,S}
-8  H u0 p0 c0 {4,S}
-9  H u0 p0 c0 {5,S}
-10 H u0 p0 c0 {5,S}
-11 H u0 p0 c0 {5,S}
-12 H u0 p0 c0 {6,S}
-13 H u0 p0 c0 {6,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[0.46143,0.056294,-4.61644e-05,2.00772e-08,-3.57227e-12,-3301.51,24.9395], Tmin=(298,'K'), Tmax=(1394,'K')),
-            NASAPolynomial(coeffs=[15.9313,0.0165162,-5.67719e-06,8.84328e-10,-5.1425e-14,-8363.67,-56.9426], Tmin=(1394,'K'), Tmax=(5000,'K')),
-        ],
-        Tmin = (298,'K'),
-        Tmax = (5000,'K'),
-    ),
-    shortDesc = u"""2/22/96 THERM""",
-    longDesc = 
-u"""
-2/22/96 THERM
-Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
-Duplicate of species C4H6CHO1-13 (i.e. same molecular structure according to RMG)
-CCC=C[C]=O
 Imported from therm.dat.
 """,
 )
