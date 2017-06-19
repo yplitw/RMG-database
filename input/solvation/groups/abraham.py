@@ -412,6 +412,20 @@ Cb is attached to a 3rd R group that isn't in the ring,as in phenol.
 )
 
 entry(
+    index = 1050,
+    label = "C_singlet",
+    group = 
+"""
+1 * [C2s,C2d] u0 p1
+""",
+    solute = u'CssH2',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+entry(
     index = -4,
     label = "O",
     group = 
@@ -1168,6 +1182,7 @@ L1: R
         L3: Cb
             L4: Cb-H
             L4: Cb-noHnoRing
+        L3: C_singlet
     L2: O
         L3: Oss
             L4: OssH
